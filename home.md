@@ -2,7 +2,7 @@
 title: Project Overview
 description: 
 published: true
-date: 2025-05-10T14:15:13.984Z
+date: 2025-05-10T14:18:04.912Z
 tags: overview
 editor: markdown
 dateCreated: 2025-05-10T13:03:51.326Z
@@ -77,7 +77,9 @@ Now they’re on a mission to cripple the megacorp’s power at its core. Leo, t
 
 Together they must infiltrate NeoTech’s data core, exfiltrate the CEO’s staggering cryptocurrency fortune, and obliterate—or redistribute—the public debt ledger that binds the world. With every successful heist, Leo’s trust in Vinny deepens even as the hacker’s loyalty fractures. When the truth about ShadeNet comes to light, Vinny faces an impossible choice: betray the friend who’s risked everything by his side, or defy the only allies he’s known. The showdown at NeoTech’s vault will decide not just the fate of a corporation, but the very bond between two friends.
 
-![overview.jpeg](/overview.jpeg){.align-center}
+<br>
+
+![overview.jpeg](/overview.jpeg =75%x75% ){.align-center}
 
 # Key Features
 
