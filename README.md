@@ -1,1 +1,1 @@
-# Team4GDD
+# Team4 - Game Document Design
