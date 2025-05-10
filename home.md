@@ -2,7 +2,7 @@
 title: Project Overview
 description: 
 published: true
-date: 2025-05-10T14:07:36.433Z
+date: 2025-05-10T14:14:45.520Z
 tags: overview
 editor: markdown
 dateCreated: 2025-05-10T13:03:51.326Z
@@ -12,6 +12,8 @@ dateCreated: 2025-05-10T13:03:51.326Z
 
 > TBD
 {.is-info}
+
+![overview.jpeg](/overview.jpeg){.align-center}
 
 # High Concept
 
