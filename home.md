@@ -2,7 +2,7 @@
 title: Project Overview
 description: 
 published: true
-date: 2025-05-10T13:32:08.544Z
+date: 2025-05-10T14:07:36.433Z
 tags: overview
 editor: markdown
 dateCreated: 2025-05-10T13:03:51.326Z
@@ -15,78 +15,87 @@ dateCreated: 2025-05-10T13:03:51.326Z
 
 # High Concept
 
-A cooperative game for two players blending stealth, puzzles, and strategic communication. One player explores a highly detailed map, while the other controls a minimalist computer system, providing real-time remote support. The synergy between players is essential to overcome challenges, avoid enemies, and complete objectives.
+A two-player cooperative stealth thriller in which one player steps into the shoes of a precision operative—slipping past guards, stealing high-value tech, and executing perfect silent takedowns—while their partner serves as a remote oracle, hacking cameras, disabling alarms, and guiding every move in real time as they climb from backyard break-ins to toppling a world-dominating megacorp.
 
 # Genre
 
-- Co-op Stealth
-- Puzzle-solving
-- Hacking Simulation and Tactical Exploration
+- Cooperative Stealth Action;
+- Light Hacking Simulation;
+- Tactical Puzzle Elements.
 
 # Platforms
 
-- PC (Windows)
+- PC (Windows);
+- Potential future ports to consoles (PlayStation 5, Xbox Series X|S).
 
 # Target Audience
 
-The game targets:
-- Players aged 16 to 35 seeking innovative cooperative experiences.
-- Enthusiasts of stealth games like *Hitman*, *Splinter Cell*, or *Deus Ex*.
-- Players who enjoy communication-based challenges and real-time problem-solving.
-- Fans of minimalist sci-fi aesthetics and realistic futuristic atmospheres.
+- Players aged 16–35 who enjoy tight teamwork and stealth challenges;
+- Fans of methodical action titles like Hitman and Splinter Cell;
+- Gamers intrigued by hacking and digital infiltration;
+- Duos looking for asymmetric roles without overwhelming sci-fi trappings.
 
 # Visual Style
 
-- **3D Environment:**  
-Clean and futuristic architecture inspired by *Mirror's Edge Catalyst*, with a high-tech twist. A color palette dominated by whites, grays, and vibrant accents of red and blue to highlight interactive elements. A tense, sterile atmosphere with realistic lighting enhancing the sense of danger and urgency. High-tech security, featuring patrolling drones, smart cameras, and automated doors.  
+3D Environments (Operative’s View):
 
-- **Computational Interface (2D):**  
-Minimalistic, inspired by operating systems like classic Linux and Windows. Sober colors like green, black, and gray. A command terminal, interactive maps, and camera interfaces simulate real-world hacking systems.  
+- Near-future urban settings circa 2030–2032—grounded, realistic architecture;
+- Subtle signs of advanced tech: biometric scanners, drone patrol routes, smart windows;
+- Moody, practical lighting (streetlamps, interior fixtures) to reinforce tension.
+
+Hacker Interface (Oracle’s View):
+
+- Clean, terminal-inspired UI with wireframe building schematics and camera feeds;
+- Functional color palette—greens, blacks, grays—with occasional alert highlights in amber or red;
+- Modular panels for network maps, door controls, and real-time video streams.
 
 # Inspirations
 
 - **Games:**  
-  - *Mirror's Edge Catalyst* (map design and movement fluidity).  
-  - *Superhot* (stylized aesthetics and tension).  
-  - *Keep Talking and Nobody Explodes* (cooperation and communication).  
-  - *Hacknet* (realistic hacking simulation).  
-  - *This is the Game* (creepy horror/puzzle game that takes you into the world of the Deep Web)
+  - *Mirror's Edge Catalyst* (map design and movement fluidity);
+  - *Superhot* (stylized aesthetics and tension);
+  - *Keep Talking and Nobody Explodes* (cooperation and communication);
+  - *Hacknet* (realistic hacking simulation);
+  - *This is the Game* (creepy horror/puzzle game that takes you into the world of the Deep Web).
 
 - **Movies and Series:**  
-  - *Mr. Robot* (hackers and tense atmospheres).  
-  - *Inception* (creative use of environments and puzzles).  
+  - *Mr. Robot*  (ambient tension, corporate overlords);
+  - *Sneakers* (team-based infiltration);
+  - *Enemy of the State* (surveillance tech);
+  - *Inception* (creative use of environments and puzzles).
+
+- **Real-World Tech:**
+	- Modern CCTV networks;
+  - IoT security devices;
+   -Counter-drone measures.
 
 # Game Summary
 
-In this cooperative game  two players must work together to complete high-risk missions. The player in the 3D world must navigate stealthily through futuristic environments, avoiding enemies and overcoming physical barriers. The player in the 2D system provides remote support by unlocking doors, disabling cameras, and supplying crucial information. Communication and synergy between the two players are critical for success.
+It’s 2031. Leo and Vinny, two childhood friends, cut their teeth on petty theft—first “borrowing” a Nexus 9000 console on a whim, then systematically upgrading their methods by repurposing stolen hardware. As their confidence swelled, so did their targets: from small tech shops to high-end retailers. But when NeoTech’s algorithmic maneuvers plunged their families—and millions worldwide—into financial ruin, the duo found new purpose.
 
-The narrative follows two main characters, Vinny and Leo, on missions against corrupt corporations and authoritarian systems. Each mission presents unique challenges, including puzzles requiring precise synchronization between both players.
+Now they’re on a mission to cripple the megacorp’s power at its core. Leo, the consummate infiltrator, slips past biometric scanners and guard patrols to plant devices in NeoTech’s most secure facilities. Vinny, the mastermind behind the keyboard, remotely ignites every breach: overriding firewalls, looping CCTV feeds, and unlocking vault doors. Unbeknownst to Leo, Vinny’s own homegrown AI-driven hacking framework has been quietly commandeered by a shadowy syndicate called ShadeNet, whose subtle interventions have guided them straight to NeoTech—and whose true agenda remains hidden.
+
+Together they must infiltrate NeoTech’s data core, exfiltrate the CEO’s staggering cryptocurrency fortune, and obliterate—or redistribute—the public debt ledger that binds the world. With every successful heist, Leo’s trust in Vinny deepens even as the hacker’s loyalty fractures. When the truth about ShadeNet comes to light, Vinny faces an impossible choice: betray the friend who’s risked everything by his side, or defy the only allies he’s known. The showdown at NeoTech’s vault will decide not just the fate of a corporation, but the very bond between two friends.
+
 
 # Key Features
 
-- **Online Co-op Gameplay:**  
-  A two-player experience where teamwork is essential to overcome complementary challenges. Both players must communicate and coordinate actions in real time.
 
-- **Dual Perspectives:**
-  Asymmetrical gameplay with interconnected 3D and 2D mechanics.
+- **Online Co-op Gameplay:** 
+Online or local drop-in/drop-out; voice/text comms and pings for silent coordination.
 
-- **Stealth Exploration:**  
-  The Operative avoids enemy patrols, cameras, and sensors while navigating complex environments while the 2D player provides strategic support.
+- **Operative & Oracle Roles**
+**LEO** conducts on-site stealth: drone evasion, card-key snatches, silent takedowns.
+**VINNY** commands the network: camera loops, alarm overrides, dynamic firewall exploits.
 
-- **Real-time Hacking:**  
-  The Hacker interacts with security cameras, locked doors, and surveillance systems to aid the Operative's progress.
-  
-- **Progressive Hacking Abilities:**
-  The 2D player gradually unlocks tools like security camera views, door controls, and access to enemy communications.
+- **Escalating Mission Scale**
+From backyard “training runs” to boutique tech-shop heists, up to Neotech’s fortified data core.
 
-- **Interconnected Puzzles:**  
-  Challenges that require collaboration between both players, combining elements from the 3D environment and the 2D computational system.
+- **Adaptive AI Security**
+Patrol drones and camera networks learn from your tactics—forcing fresh approaches each time.
 
-- **Futuristic Visual Style:**  
-  Detailed settings with advanced architecture and a minimalist design for the Hacker's interface.
+- **Integrated Puzzle Layers**
+Laser grids, biometric locks, network-relay puzzles that demand split-second teamwork.
 
-- **Immersive Narrative:**  
-  Engaging stories about social justice, corruption, and resilience against oppressive systems.
-
-- **Scalable Challenges:**  
-  Progressive difficulty with new obstacles and tools unlocked as players advance.
+- **Grounded Futurism**
+Tech circa 2030–2032: plausible, tactile gadgets and interfaces, not over-the-top sci-fi.
