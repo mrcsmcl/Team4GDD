@@ -2,7 +2,7 @@
 title: Project Overview
 description: 
 published: true
-date: 2025-05-10T14:18:04.912Z
+date: 2025-05-10T15:15:24.762Z
 tags: overview
 editor: markdown
 dateCreated: 2025-05-10T13:03:51.326Z
@@ -71,7 +71,7 @@ Hacker Interface (Oracle’s View):
 
 # Game Summary
 
-It’s 2031. Leo and Vinny, two childhood friends, cut their teeth on petty theft—first “borrowing” a Nexus 9000 console on a whim, then systematically upgrading their methods by repurposing stolen hardware. As their confidence swelled, so did their targets: from small tech shops to high-end retailers. But when NeoTech’s algorithmic maneuvers plunged their families—and millions worldwide—into financial ruin, the duo found new purpose.
+It’s 2033. Leo and Vinny, two childhood friends, cut their teeth on petty theft—first “borrowing” a Nexus 9000 console on a whim, then systematically upgrading their methods by repurposing stolen hardware. As their confidence swelled, so did their targets: from small tech shops to high-end retailers. But when NeoTech’s algorithmic maneuvers plunged their families—and millions worldwide—into financial ruin, the duo found new purpose.
 
 Now they’re on a mission to cripple the megacorp’s power at its core. Leo, the consummate infiltrator, slips past biometric scanners and guard patrols to plant devices in NeoTech’s most secure facilities. Vinny, the mastermind behind the keyboard, remotely ignites every breach: overriding firewalls, looping CCTV feeds, and unlocking vault doors. Unbeknownst to Leo, Vinny’s own homegrown AI-driven hacking framework has been quietly commandeered by a shadowy syndicate called ShadeNet, whose subtle interventions have guided them straight to NeoTech—and whose true agenda remains hidden.
 
