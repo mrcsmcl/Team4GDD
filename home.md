@@ -2,7 +2,7 @@
 title: Project Overview
 description: 
 published: true
-date: 2025-05-11T21:46:10.348Z
+date: 2025-05-11T22:18:06.320Z
 tags: overview
 editor: markdown
 dateCreated: 2025-05-10T13:03:51.326Z
@@ -71,11 +71,11 @@ Hacker Interface (Oracle’s View):
 
 # Game Summary
 
-It’s 2033. Leo and Vinny, two childhood friends, cut their teeth on petty theft—first “borrowing” a Nexus 9000 console on a whim, then systematically upgrading their methods by repurposing stolen hardware. As their confidence swelled, so did their targets: from small tech shops to high-end retailers. But when NeoTech’s algorithmic maneuvers plunged their families—and millions worldwide—into financial ruin, the duo found new purpose.
+It’s 2033. Leo and Vinny, two childhood friends, cut their teeth on petty theft—first “borrowing” a Nexus 9000 console on a whim, then systematically upgrading their methods by repurposing stolen hardware. As their confidence swelled, so did their targets: from small tech shops to high-end retailers. But when NeoTech’s algorithmic maneuvers plunged their families, and millions worldwide, into financial ruin, the duo found new purpose.
 
-Now they’re on a mission to cripple the megacorp’s power at its core. Leo, the consummate infiltrator, slips past biometric scanners and guard patrols to plant devices in NeoTech’s most secure facilities. Vinny, the mastermind behind the keyboard, remotely ignites every breach: overriding firewalls, looping CCTV feeds, and unlocking vault doors. Unbeknownst to Leo, Vinny’s own homegrown AI-driven hacking framework has been quietly commandeered by a shadowy syndicate called ShadeNet, whose subtle interventions have guided them straight to NeoTech—and whose true agenda remains hidden.
+Now they’re on a mission to cripple the megacorp’s power at its core. Leo, the consummate infiltrator, slips past biometric scanners and guard patrols to plant devices in NeoTech’s most secure facilities. Vinny, the mastermind behind the keyboard, remotely ignites every breach: overriding firewalls, looping CCTV feeds, and unlocking vault doors. Unbeknownst to Leo, Vinny’s hacking framework has been quietly commandeered by a shadowy syndicate called ShadeNet, whose subtle interventions have guided them straight to NeoTech and whose true agenda remains hidden.
 
-Together they must infiltrate NeoTech’s data core, exfiltrate the CEO’s staggering cryptocurrency fortune, and obliterate—or redistribute—the public debt ledger that binds the world. With every successful heist, Leo’s trust in Vinny deepens even as the hacker’s loyalty fractures. When the truth about ShadeNet comes to light, Vinny faces an impossible choice: betray the friend who’s risked everything by his side, or defy the only allies he’s known. The showdown at NeoTech’s vault will decide not just the fate of a corporation, but the very bond between two friends.
+Together they must infiltrate NeoTech’s data core, exfiltrate the CEO’s staggering cryptocurrency fortune, and obliterate, or redistribute, the public debt ledger that binds the world. With every successful heist, Leo’s trust in Vinny deepens even as the hacker’s loyalty fractures. When the truth about ShadeNet comes to light, Vinny faces an impossible choice: betray the friend who’s risked everything by his side, or defy the only allies he’s known. The showdown at NeoTech’s vault will decide not just the fate of a corporation, but the very bond between two friends.
 
 <br>
 
@@ -101,4 +101,4 @@ Patrol drones and camera networks learn from your tactics—forcing fresh approa
 Laser grids, biometric locks, network-relay puzzles that demand split-second teamwork.
 
 - **Grounded Futurism**
-Tech circa 2030–2032: plausible, tactile gadgets and interfaces, not over-the-top sci-fi.
+Tech circa 2030–2040: plausible, tactile gadgets and interfaces, not over-the-top sci-fi.
