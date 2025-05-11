@@ -2,7 +2,7 @@
 title: Project Overview
 description: 
 published: true
-date: 2025-05-10T15:15:24.762Z
+date: 2025-05-11T21:46:10.348Z
 tags: overview
 editor: markdown
 dateCreated: 2025-05-10T13:03:51.326Z
@@ -26,7 +26,7 @@ A two-player cooperative stealth thriller in which one player steps into the sho
 # Platforms
 
 - PC (Windows);
-- Potential future ports to consoles (PlayStation 5, Xbox Series X|S).
+- Potential future ports to consoles.
 
 # Target Audience
 
@@ -39,7 +39,7 @@ A two-player cooperative stealth thriller in which one player steps into the sho
 
 3D Environments (Operative’s View):
 
-- Near-future urban settings circa 2030–2032—grounded, realistic architecture;
+- Near-future urban settings circa 2030–2033—grounded, realistic architecture;
 - Subtle signs of advanced tech: biometric scanners, drone patrol routes, smart windows;
 - Moody, practical lighting (streetlamps, interior fixtures) to reinforce tension.
 
@@ -67,7 +67,7 @@ Hacker Interface (Oracle’s View):
 - **Real-World Tech:**
 	- Modern CCTV networks;
   - IoT security devices;
-   -Counter-drone measures.
+  - Counter-drone measures.
 
 # Game Summary
 
