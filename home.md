@@ -2,7 +2,7 @@
 title: Project Overview
 description: 
 published: true
-date: 2025-05-11T22:18:06.320Z
+date: 2025-05-12T11:50:46.617Z
 tags: overview
 editor: markdown
 dateCreated: 2025-05-10T13:03:51.326Z
@@ -15,7 +15,7 @@ dateCreated: 2025-05-10T13:03:51.326Z
 
 # High Concept
 
-A two-player cooperative stealth thriller in which one player steps into the shoes of a precision operative—slipping past guards, stealing high-value tech, and executing perfect silent takedowns—while their partner serves as a remote oracle, hacking cameras, disabling alarms, and guiding every move in real time as they climb from backyard break-ins to toppling a world-dominating megacorp.
+A two-player cooperative stealth thriller in which one player steps into the shoes of a precision operative, slipping past guards, stealing high, value tech, and executing perfect silent takedowns, while their partner serves as a remote oracle, hacking cameras, disabling alarms, and guiding every move in real time as they climb from backyard break-ins to toppling a world-dominating megacorp.
 
 # Genre
 
