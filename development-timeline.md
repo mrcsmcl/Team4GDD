@@ -2,149 +2,77 @@
 title: Development Timeline
 description: 
 published: true
-date: 2025-06-14T12:22:39.318Z
-tags: development timeline, locked, outdated
+date: 2025-06-15T23:26:43.623Z
+tags: outdated, development timeline, locked
 editor: markdown
 dateCreated: 2025-05-10T15:08:06.228Z
 ---
 
-# Production Plan and Details
+# Summary of Total Timeline
 
-**Total Duration:** ~24-30 months.
+| Phase                       | Start Date     | End Date       | Duration (Months) |
+| :-------------------------- | :------------- | :------------- | :---------------- |
+| Prototyping                 | July 2025      | July 2025      | 1                 |
+| Pre-Production              | August 2025    | November 2025  | 4                 |
+| Main Production (Early Access) | December 2025  | June 2026      | 7                 |
+| NeoTech Saga (Final Launch) | July 2026      | December 2026  | 6                 |
+| **Total**                   |                |                | **18**            |
 
----
 
-## **Pre-Production (2-3 Months)**
+# Details of the Phases:
 
-- **Concept Development**  
-  - Finalize an extensive game design document covering narrative, mechanics, systems, and art direction.  
-  - Conduct research to refine the story, character development, and gameplay flow.  
+## 1. Prototyping Phase
 
-- **Prototyping**  
-  - Create proof-of-concept prototypes for:
-    - 3D gameplay (Leo’s movement, stealth mechanics).  
-    - 2D hacking interface and interactions (Vinny’s gameplay).  
-  - Test and refine based on feedback.  
+* **Duration:** ~1 month (Early July 2025).
+* **Objective:** Validate core gameplay concepts and establish foundational technical/artistic elements.
+* **Key Activities:**
+    * **Finalize Game Design Document (GDD):** Consolidate all game design, narrative, and visual references.
+    * **Essential Mechanics Prototyping:** Implement and test core cooperative mechanics, focusing on Leo's stealth/traversal and Vinny's Digital Realm navigation (cameras, doors, alarms) and their real-time impact on Leo's 3D environment.
+    * **Tool & Pipeline Setup:** Configure Unreal Engine 5.5, GitFlow for version control, and Resilio Sync for large file storage. Establish naming conventions.
+    * **Basic Concept Testing:** Rapidly test fundamental gameplay elements and role synergy.
+* **Deliverables:** Consolidated GDD, functional core mechanic prototypes, configured development environment.
 
-- **Art Direction**  
-  - Develop style guides for environments, characters, UI, and visual effects.  
-  - Establish a consistent mood for diverse locations, from suburban homes to corporate offices.  
+## 2. Pre-Production & "Vertical Slice" Phase
 
----
+* **Duration:** 4 months (August 2025 – November 2025).
+* **Objective:** Develop a polished "vertical slice" (Chapter 01) as an external demo showcasing final game quality.
+* **Key Activities:**
+    * **Chapter 01 Implementation (Suburban House):** Build the demo's starting area, introducing basic movement and stealth.
+    * **Essential Gameplay Mechanics Refinement:** Enhance Leo's stealth/traversal and Vinny's Digital Realm interactions, ensuring real-time synchronization and visual/audio feedback.
+    * **Art & Audio Design for Demo:** Create final art assets for the Suburban House and Digital Realm (e.g., glowing data streams), ambient sounds, specific sound effects, and synchronized character dialogue.
+    * **Initial AI:** Develop basic AI for Security Guards (patrols, alerts) and digital defense systems.
+    * **User Interface (UI):** Create basic, minimalist UI elements for both Operative and Oracle views.
+    * **Demo Polishing & Testing:** Conduct intensive testing for stability and bug fixing.
+* **Deliverables:** Complete, polished, and playable "vertical slice" demo (Chapter 01).
 
-## **Production**  
-### **Phase 1: Core Systems Development (6-8 Months)**
+## 3. Main Production Phase & Early Access Launch
 
-1. **Core Gameplay Implementation**  
-   - Develop core systems for:
-     - Player movement, including stealth mechanics (Leo).  
-     - Hacking and puzzle systems (Vinny).  
-   - Build a working inventory and interaction system for both characters.  
+* **Duration:** 7 months (December 2025 – June 2026).
+* **Objective:** Develop initial campaign chapters (01-06) leading to an Early Access launch.
+* **Key Activities:**
+    * **Chapter 01 (Tutorial):** Consolidate the initial simulation (Vinny's garage) as the game's tutorial, concluding with the decision to steal a Nexus 9000.
+    * **Chapter 02 (Electronics Store Incursion):** Implement the first real mission with an unexpected security guard and a tense escape.
+    * **Chapter 03 (Warehouse Infiltration):** Introduce a motion-activated lockdown and hidden firewall, where Vinny uses the SignalPro-X.
+    * **Chapter 04 (Warehouse Consequences & Planning):** Show the aftermath of the robbery, increased ambition, and initial planning for a downtown electronics store heist.
+    * **Chapter 05 (Downtown Electronics Store - Level Up):** Focus on acquiring advanced tools (CamBlocker, KeyScan, Reflector, Disruptor, LatchFreeze) using the SignalPro-X.
+    * **Chapter 06 (NeoTech Crisis & Decision):** Deepen the impact of the NeoTech crisis on families, introduce the Nonexist organization, and culminate in the decision to target NeoTech (but not directly infiltrate its headquarters yet).
+    * **Advanced AI Development:** Expand Security Guard behaviors, implement Player-Induced Suspicion, and Persistent Alert systems.
+    * **Large-Scale Asset Production:** Create extensive 3D models, textures, animations, and sound effects for new environments and mechanics.
+    * **Early Access Launch:** Release the game with Chapters 01-06 to gather community feedback.
+* **Deliverables:** Early Access version with Chapters 01-06, expanded AI/gameplay systems, and functional tools/upgrades.
 
-2. **Environment Development**  
-   - Begin creating modular assets for each location:  
-     - Suburban house, café, warehouse, Neotech headquarters.  
-   - Block out and iterate on level layouts, ensuring smooth gameplay progression.  
+## 4. NeoTech Saga Development, Polishing, & Final Launch
 
-3. **AI and Gameplay Systems**  
-   - Develop basic AI systems for guards, including patrol routes and alert mechanics.  
-   - Create environmental hazards (cameras, motion sensors, alarms).  
-
-4. **Placeholder Assets**  
-   - Produce temporary assets for early testing, such as characters, props, and environmental elements.  
-
----
-
-### **Phase 2: Content Creation and Polish (10-12 Months)**
-
-1. **Expanded Level Design**  
-   - Finalize layouts for all levels, including unique spaces like maintenance tunnels and security offices.  
-   - Add interactive elements, puzzles, and story-related objects.  
-
-2. **Art and Animation**  
-   - Replace placeholders with polished 3D models, textures, and animations.  
-   - Develop detailed character models for Leo, Vinny, and NPCs.  
-
-3. **Advanced AI**  
-   - Enhance guard behaviors with dynamic responses to player actions.  
-   - Add unique NPC interactions based on their roles (e.g., tech workers, security personnel).  
-
-4. **Sound and Voice Implementation**  
-   - Integrate finalized soundtrack, sound effects, and voiceovers into the game.  
-
-5. **UI/UX Enhancements**  
-   - Develop and polish user interfaces for hacking, inventory management, and mission tracking.  
-   - Refine tutorials and player guidance systems.  
-
----
-
-### **Phase 3: Testing and Final Polish (6-8 Months)**
-
-1. **Extensive Playtesting**  
-   - Conduct multiple rounds of testing, focusing on mechanics, pacing, and balance.  
-   - Collect feedback from external testers to identify pain points and areas for improvement.  
-
-2. **Optimization**  
-   - Enhance game performance across all target platforms.  
-   - Optimize AI and environmental interactions to prevent bugs.  
-
-3. **Final Adjustments**  
-   - Refine visuals, animations, and effects for a cohesive aesthetic.  
-   - Address all major and minor issues uncovered during testing.  
-
----
-
-## **Post-Production (3-4 Months)**
-
-1. **Final Debugging and Polishing**  
-   - Ensure all gameplay elements function smoothly without crashes or performance dips.  
-
-2. **Marketing and Promotion**  
-   - Create promotional materials, including gameplay trailers and key art.  
-   - Develop a community engagement strategy, such as social media campaigns and pre-launch events.  
-
-3. **Launch and Post-Launch Support**  
-   - Release the game on targeted platforms.  
-   - Monitor feedback and release patches or updates as needed.  
-
----
-
-## **Key Milestones**
-
-1. **Concept Approval (End of Pre-Production)**  
-   - Game design document and prototypes showcasing key mechanics.  
-
-2. **Alpha Build (End of Phase 1)**  
-   - Playable version featuring core gameplay mechanics and basic environments.  
-
-3. **Beta Build (End of Phase 2)**  
-   - Feature-complete build with finalized assets, polished systems, and balanced gameplay.  
-
-4. **Release Candidate (End of Phase 3)**  
-   - Ready-to-launch build incorporating feedback from playtesting.  
-
-5. **Launch**  
-   - Official release of the game on chosen platforms.  
-
----
-
-## **Team Structure**
-
-1. **Project Manager and Game Designer**  
-   - **mrcsmcl (Marcos):** Oversees project scope, milestones, and design consistency.  
-
-2. **Lead Programmer**  
-   - **Kesoona (Bb):** Handles core mechanics, AI behaviors, and system optimization.  
-
-3. **Lead Artist**  
-   - **Yahya aka “Yahyeet!!!” (Yahya):** Creates 3D models, animations, and visual effects.  
-
-4. **Sound Designer**  
-   - **TBD:** Designs and integrates audio assets.  
-
-5. **Quality Assurance Testers**  
-   - **TBD:** Performs detailed playtesting and reports issues.  
-
-6. **Marketing/Community Manager**  
-   - **TBD:** Manages promotional campaigns and community engagement.  
-
+* **Duration:** 6 months (July 2026 – December 2026).
+* **Objective:** Develop the complex NeoTech chapters (07-10), focusing on infiltration, climax, and final game launch.
+* **Key Activities:**
+    * **Chapter 07 (NeoTech Headquarters Infiltration):** First direct infiltration, involving disguises, biometric access cloning (KeyScan), and obtaining security blueprints.
+    * **Chapters 08, 09, 10 (NeoTech Advance & Climax):** Progressive infiltration to the DataCore (NeoTech's heart), revealing Nonexist's agenda, with complex AI (drones, security robots, counter-hacker AI), dynamic firewalls, and intricate environments.
+    * **Advanced AI & Security System Development:** Implement complex AI for Security Bots, Counter-Hacker Protocol, Dynamic Firewalls, and Failsafes.
+    * **Performance Optimization:** Ensure smooth framerate, loading times, and efficient resource usage on Unreal Engine 5.5.
+    * **Quality Assurance (QA) Testing:** Rigorous Alpha and Beta testing to identify and fix bugs.
+    * **Gameplay Balancing:** Adjust AI difficulty, player progression, puzzles, and rewards.
+    * **Localization:** Translate all text and subtitles.
+    * **Final Marketing Material:** Produce launch trailers, screenshots, and promotional materials.
+    * **Certification & Launch:** Prepare for platform certification and officially launch the full game.
+* **Deliverables:** Final optimized and polished game (all 10 chapters), marketing materials, and official launch by December 2026.
