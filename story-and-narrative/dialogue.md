@@ -2,7 +2,7 @@
 title: Story Dialogue
 description: 
 published: true
-date: 2025-05-10T14:44:54.357Z
+date: 2025-06-14T12:55:02.325Z
 tags: story, narrative, dialogue
 editor: markdown
 dateCreated: 2025-05-10T14:44:54.357Z
@@ -1385,7 +1385,7 @@ He types something on the keyboard, opening a digital map showing the locations 
 > **VINNY**  
 > Always.
 
-**CLARA** leaves the room, and **VINNY** turns back to his main screen. He opens the folder, revealing a message from ShadeNet: “We await your decision. We are ready.” He stares at the message for a long moment before closing the laptop.
+**CLARA** leaves the room, and **VINNY** turns back to his main screen. He opens the folder, revealing a message from Nonexist: “We await your decision. We are ready.” He stares at the message for a long moment before closing the laptop.
 
 > **VINNY**  
 > *(quietly, to himself)*  

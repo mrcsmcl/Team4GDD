@@ -2,51 +2,113 @@
 title: Resilio Sync Info
 description: 
 published: true
-date: 2025-05-10T15:13:21.835Z
+date: 2025-06-14T16:09:03.895Z
 tags: resilio, sync, share
 editor: markdown
 dateCreated: 2025-05-10T15:13:21.835Z
 ---
 
-# Resilio Sync Setup for Game Development Collaboration
+Resilio Sync is a **peer‑to‑peer** (P2P) file synchronization tool that leverages your own devices to share folders directly, **no central cloud storage involved**. It’s ideal for game development teams because it:
+
+- **Maximizes speed**: Direct LAN transfers can saturate your local network.  
+- **Ensures privacy**: All data is encrypted end‑to‑end (AES‑128) before it leaves your machine.  
+- **Scales seamlessly**: Add new peers (artists, developers, build servers) with a single share key.  
+- **Handles large files**: Perfect for multi‑gigabyte PSDs, 3ds Max scenes, WAV multitracks and video edits.
+
+# How Resilio Sync Works Under the Hood  
+1. **Folder Keys & Links**  
+   - Each synced folder is identified by a unique 33‑character “secret” or “link.”  
+   - Peers paste this secret into their Resilio client to join the share.  
+
+2. **Peer Discovery & Connection**  
+   - By default, peers discover each other via LAN broadcast, LAN multicast, and (optionally) through Resilio’s relay/tracker servers if peers aren’t on the same network.
+
+3. **Encrypted Transfer**  
+   - All data in transit is encrypted with AES‑128.  
+   - Metadata (file names, sizes) can also be encrypted if you choose “Encrypted Folder” mode.
+
+4. **Block‑Level Sync & Versioning**  
+   - Files are split into 32 KB blocks; only changed blocks re‑transfer on updates.  
+   - Built‑in versioning can keep snapshots of overwritten or deleted files.
+
+5. **Selective Sync & Bandwidth Control**  
+   - Each peer can choose which subfolders to keep locally.  
+   - You can throttle upload/download speeds per folder to avoid saturating your Internet link.
+
+# Why Use Resilio Sync for Source Assets?  
+- **Raw Assets Are Large & Frequently Updated**  
+  Source PSDs, MAX/BLEND scenes and DAW sessions change every artist save—resyncing gigabytes of binaries is wasteful.  
+- **Separation from Engine Binaries**  
+  Keep your compiled `.uasset` and `.umap` traffic on a different channel or CI system.  
+- **Offline & Zero‑Trust**  
+  No dependency on external cloud—peers can sync over LAN without Internet, and encryption keeps assets safe over public networks.
+
+---
+
+# Folders to Sync (Source‑Editable Only)
+
+| **Folder Path**                           | **Description**                                                   | **Key File Types**                                  | **Sync Secret** |
+|-------------------------------------------|-------------------------------------------------------------------|-----------------------------------------------------|-----------------|
+| `Documentation`           | Documentations PDF                       | `.pdf`        | [LINK](https://link.resilio.com/#f=Documentation&sz=27E6&t=2&s=TZMDSYGMEM5S56E6J4BDLD4LYRVG54ZRBPEIIVUT342AB4WWWMYQ&i=CXHHP5YLJAGXTC2AKUEPORXI3BEJGLUW6&v=3.0&a=2)      |
+| `Art`           | Raw character models, sculpts, concept art, DCC animation files & motion capture data.                       | `.max`, `.blend`, `.fbx`, ZBrush `.ztl`, PSD, Maya `.ma`/`.mb`, `.anim`, Blender `.blend`, FBX        | [LINK](https://link.resilio.com/#f=Art&sz=0&t=2&s=WDSOL2YN4RUMTTMMU3U635UL4JDWN2ICYOGIMWGYC43IVR5ALWAA&i=CCFMOVIZ6VMRS6DLOUHUN2UMHNLQG4AWP&v=3.0&a=3)      |
+| `Textures`                        | High‑resolution and layered textures before engine import         | `.psd`, `.exr`, `.tga`, `.png`                      | [LINK](https://link.resilio.com/#f=Textures&sz=0&t=2&s=JHRH5PDV4TD2JOVLUJFIM7QW2AB6TCMMMGKC5XQLA7TDUORQFLDQ&i=CT5BDJ34AKWBKWFKYWRGGSKXBV5BE4D4R&v=3.0&a=3)      |
+| `Materials`                | Substance Designer/Alchemist projects and material authoring      | `.sbs`, `.sbsar`, `.sbsprs`, `.substance`           | [LINK](https://link.resilio.com/#f=Materials&sz=0&t=2&s=H5R3G2HJXWXF5YSHPBJOTRORTYXDRHBX6HJNQXTHRYDIZI2DZHDQ&i=CESEWCQWIVPD3VJ5KTJ4AT32PABSWWY3F&v=3.0&a=3)      |
+| `FX`                       | Raw effect definitions (text‑based or source files)               | `.json`, `.xml`, HLSL `.hlsl`, `.fx`, custom scripts| [LINK](https://link.resilio.com/#f=FX&sz=0&t=2&s=ZLH6A54YAYOIMVJVZMCM6JBOUSWDC5AVOGKHWFETXN4WVJS3PYEA&i=CRQACV67HJAKJ3V7CTNNCC4F3XDEY3EWN&v=3.0&a=3)      |
+| `UI`                       | UI mockups, wireframes, icon masters                              | `.psd`, `.ai`, `.fig`, `.svg`, Sketch `.sketch`     | [LINK](https://link.resilio.com/#f=UI&sz=0&t=2&s=J7XY5FA7DGZKVKGZUJAMVDI4DARTCJTHSU4GYUQWKQ6WBNAUA6FQ&i=CO7HA46RKYF5OAYAQ673YUNKHV3FKWSNV&v=3.0&a=3)      |
+| `Audio`                    | Untouched audio recordings & DAW sessions                         | `.wav`, `.aif`, Ableton `.als`, Pro Tools `.ptx`    | [LINK](https://link.resilio.com/#f=Audio&sz=0&t=2&s=XQWPLODHC43PW4OX5UG6YGAYA4DHRYG7PLAKTNXXO4UUOBIAIELA&i=CV6TABLJ2TXOHJL5HQJ2DOITOHH64URTD&v=3.0&a=3)      |
+| `Video`                    | Original footage & edit project files                             | `.mov`, `.mp4`, Premiere `.prproj`, DaVinci `.drp`  | [LINK](https://link.resilio.com/#f=Video&sz=0&t=2&s=WRGRBM2MVET45UNPLCDJ7HWKJUAXXGJ7JODXSXPAZVYUNJMZKHIQ&i=CLFXNTUI4G5FLZBZLUYAFUALTOU4TMZPZ&v=3.0&a=3)      |
+| `_External`                       | Third‑party packs (Quixel, ZBrush, Marketplace downloads)         | `.zip`, `.rar`, raw archives, vendor DCC files      | [LINK](https://link.resilio.com/#f=_External&sz=0&t=2&s=W4O262E6ERBCP5ODPKTXHQ72VCDK345CFXORTL6R5WADFFZUSNSA&i=CNGQG2HPQS2OBUWPYCIJSKG44ROVERWD3&v=3.0&a=3)      |
+| `Developers/[YourName]`           | Personal WIPs for each artist/tech‑artist                         | Any source file (`.psd`, `.max`, `.ma`, `.nk`, etc.)| [LINK](https://link.resilio.com/#f=Developers&sz=0&t=2&s=BEK3F3623OTT3WLYFND6D6BFTMQYNZN4P73MQPVBKUKJ2C5JMV6A&i=CPISB73EVZNVAHYZEK6BE6BCQEX47YVBS&v=3.0&a=3)      |
 
 <br>
 
-### What is Resilio Sync?
+> **Note:** Do **not** include compiled Unreal assets (`.uasset`, `.umap`) in this share. Keep those on a separate channel or CI feed.
 
-Resilio Sync is a peer-to-peer file synchronization tool that facilitates fast, secure, and reliable sharing of files across multiple devices. For this game development project, Resilio Sync will be used to share important resources like recorded videos, edited images, and other media, ensuring that all team members can access and contribute to the shared files effortlessly.
+---
 
-## Shared Folders and Their Purpose
+# Step‑by‑Step Setup
 
-Below is a list of folders that will be synchronized using Resilio Sync, with a description of their intended use. Each folder will have a unique sync code (to be added later):
+1. **Install Resilio Sync**  
+   - Download for Windows/macOS/Linux at:  
+     ```
+     https://www.resilio.com/sync/
+     ```
 
-<br>
-
-| **Folder Name**       | **Purpose**                                                                                       | **Sync Access**  |
-|-----------------------|---------------------------------------------------------------------------------------------------|----------------|
-| **Playground**        | A sandbox Unreal Engine project to freely test assets, experiment, and try ideas without worrying about breaking anything. | [SYNC](https://link.resilio.com/#f=Playground&sz=0&t=2&s=6UFJX43OSH7E2GWTJKF4PN6QWNEELWC77SAKFAHHT77H3QHJPD6A&i=CLYLUTC3YP33M5HTJGQA4TNXPLJBCMFS6&v=3.0&a=3)  |
-| **Videos**            | A repository for recorded gameplay, tutorials, and other video materials related to the project.  | [SYNC](https://link.resilio.com/#f=Videos&sz=0&t=2&s=4JACBMUHZDFMOO4QBPO5R24IBIZSQPWVLEMWQKW3TKDG24FSLIZA&i=C5JB7TA3EWBW5AGAXRGSUONOUNAQROBXA&v=3.0&a=3)  |
-| **Images**            | Contains reference images, concept art, and edited screenshots for use in development and documentation. | [SYNC](https://link.resilio.com/#f=Images&sz=0&t=2&s=NT4E3DTF77OHDGDQWCENCGWY6XATHTNBSNEEQXDMDUYADFJCUIOQ&i=CLUQ472U7SULUOXMMF2HIIX2TVYSL4EUV&v=3.0&a=3)  |
-| **Edits**             | Stores image and video edits, including promotional materials, thumbnails, or in-game media.      | [SYNC](https://link.resilio.com/#f=Edits&sz=0&t=2&s=OK5KMKYV2MMNNYEXJSVZ5MRRVZKCQEOIRGA6FSEPH7QJKY2ON4PA&i=CRIILE4FXY2HKH24KU4HUUHUQVTVWJE37&v=3.0&a=3)  |
-| **Reference**         | A collection of useful reference materials, such as guides, tutorials, and design inspiration.    | [SYNC](https://link.resilio.com/#f=Reference&sz=0&t=2&s=NZO3CLTHQALWXSPEH2QFP4UCM2VPPYFDTPXGLL6OYND4U5VHEZZQ&i=CREMO7XFQDOM76SBLAVVNQKHDTM3ZLD45&v=3.0&a=3)  |
-| **Tools**             | Contains development tools, scripts, or utilities that assist in game creation.                   | [SYNC](https://link.resilio.com/#f=Tools&sz=0&t=2&s=MYY7CHDECLIW6R7RSSQSDSWSUO6RJNSRR6W3WHDK7PCG5STBLRPQ&i=CTW7NKLPSTKAVK4DGWOIKVSBQQKQQG76Y&v=3.0&a=3)  |
-
-
-## How to Use Resilio Sync
-
-1. **Install Resilio Sync**: Download and install Resilio Sync from [https://www.resilio.com/sync/](https://www.resilio.com/).
-2. **Add Folders**: Use the provided sync codes to add the folders to your Resilio Sync client.
-3. **Synchronize**: Once added, the folders will automatically sync to your device, ensuring you always have the latest files.
-4. **Organize and Collaborate**: Use the appropriate folder for each type of file to maintain organization.
-
-## Notes
-
-- **Playground** is specifically for experimentation. Feel free to add, test, or modify Unreal Engine assets or ideas here.
-- Keep the **Videos**, **Images**, and **Edits** folders clean and organized to ensure easy access for the team.
-- For large files like videos, ensure you have adequate bandwidth and storage before syncing.
+2. **Create the Root Share**  
+   - Open Resilio Sync → **Add → Standard Folder**.  
+   - Point to your desired `Content/` directory.
 
 <br>
 
-> Resilio Sync is free to use for personal purposes. However, depending on your usage or the need to access the shared folders listed above, you might require a license. This could involve creating an account or upgrading to a paid version. Simply download this file ([resiliosyncpro.btskey](/resiliosyncpro.btskey)) and follow Resilio Sync's instructions to activate the license on your device. If you have any issues, feel free to reach out for assistance.
+> Do not use the game project folder.
 {.is-warning}
+
+
+3. **Add Each Source Subfolder**  
+   - In Resilio, right‑click your `Content/` share → **Enter a key or link**.  
+   - Paste the corresponding **Sync Secret** for `Art/Characters`, then repeat for the others as you need.
+   - Confirm the **local path** matches exactly (case‑sensitive).
+
+4. **Configure Selective Sync (Optional)**  
+   - In the folder’s **Preferences → Selective Sync**, uncheck subfolders you don’t need on a particular machine (e.g., animators may skip UI/Video).
+
+5. **Set Bandwidth Limits (Optional)**  
+   - In **Preferences → Bandwidth**, throttle upload/download speeds if you share over Internet links to avoid saturating your pipe.
+
+6. **Verify & Collaborate**  
+   - Once peers join, Resilio Sync will transfer all source files.  
+   - Artists save a new PSD, and only the changed file blocks propagate, keeping sync lean.
+
+---
+
+# Best Practices & Troubleshooting
+
+- **Keep Secrets Confidential**  
+  Only share folder secrets with authorized team members.  
+- **Backup the `.sync` Folder**  
+  Periodically copy your Resilio client’s `.sync` folder (peer list, history database) along with your project backups.  
+- **Check Peer Status**  
+  In the Resilio UI, verify peers are **‘Up to date’** or **‘Syncing’**. Red exclamation marks can indicate path mismatches.  
+- **Resolve Conflicts**  
+  If two peers edit the same file simultaneously, Resilio creates conflict copies (e.g. `filename (device).psd`). Merge these manually and remove the outdated copy.  
 

@@ -1,96 +1,221 @@
 ---
-title: Unreal Engine File Organization
+title: Unreal Engine File Organization and Naming Guide
 description: 
 published: true
-date: 2025-05-10T15:11:31.338Z
+date: 2025-06-14T13:18:28.875Z
 tags: files, organization, unreal engine
 editor: markdown
 dateCreated: 2025-05-10T15:11:31.338Z
 ---
 
-# File Organization
+A structured and consistent file organization is the backbone of any successful Unreal Engine project. A well-defined system accelerates development, eases the onboarding of new members, minimizes conflicts, and drastically reduces confusion and redundant work.
 
-To ensure a smooth workflow and minimize confusion when multiple team members are working in Unreal Engine, it is essential to implement a structured and well-documented file organization system. This organization will make it easier for everyone to locate and save assets while reducing the likelihood of conflicts, redundant work, and misplaced files. Below is a detailed explanation of the proposed system:
+This document establishes a detailed guide for the folder structure, naming conventions, and workflow to be adopted, utilizing **Git** for project version control and **Resilio Sync** for source file storage.
 
-## 1. Root Folder Structure
+---
 
-All files within the `Content` folder will be categorized into clearly defined root folders based on their type or purpose. Each root folder will contain subfolders for further classification. The structure is as follows:
+# **1. Core Principles**
 
-- **Art**:
-  - `Art/Textures`: Contains all texture files, organized further by type:
-    - `Textures/Environment`: Environment-related textures.
-    - `Textures/Characters`: Character textures.
-  - `Art/Materials`: Includes materials and material instances.
-  - `Art/UI`: Stores all visual assets related to the user interface.
+Our organizational philosophy is based on three pillars:
 
-- **Blueprints**:
-  - `Blueprints/Characters`: Blueprints for both playable characters and NPCs.
-  - `Blueprints/Gameplay`: Core game mechanic Blueprints, such as pickups or interactables.
-  - `Blueprints/UI`: Blueprints related to user interface logic and widgets.
+1.  **Clarity of Location:** A file's location should immediately indicate its purpose and type.
+2.  **Consistency is Key:** The rules must be followed by everyone, at all times.
+3.  **Descriptive Naming:** A file's name should concisely describe what it is and how it is used.
 
-- **Meshes**:
-  - `Meshes/Characters`: Models for characters.
-  - `Meshes/Environment`: Assets for environmental elements, such as trees, buildings, and props.
-  - `Meshes/Weapons`: Models for weapons or tools.
+---
 
-- **Animations**:
-  - `Animations/Characters`: Animation sequences and related Blueprints for characters.
-  - `Animations/Props`: Animations for props and other environmental interactions.
+# **2. Tools and Project Ecosystem**
 
-- **Audio**:
-  - `Audio/SFX`: Sound effects for the game.
-  - `Audio/Music`: Background music files.
-  - `Audio/Voice`: Audio files for voiceovers or character dialogue.
+Our ecosystem is divided into two main parts, each with a specific tool:
 
-- **Levels**:
-  - `Levels/Main`: Main game levels used in production.
-  - `Levels/Test`: Maps and levels for testing or prototypes.
+## **A. Git (Project Version Control)**
 
-- **UI**:
-  - `UI/Widgets`: Widget Blueprints for HUDs, menus, and other interface elements.
-  - `UI/Textures`: UI-specific textures, such as icons and buttons.
+**Git** will be used to version our Unreal Engine project. This includes all `.uproject`, `.uasset`, `Config/`, and `Source/` files.
+
+* **Git LFS (Large File Storage) is Mandatory:**
+
+Since Git does not handle large binary files well (like most `.uasset` files), the use of Git LFS is **required**. It stores large files on a separate server, keeping the main repository lightweight and fast.
+
+* **`.gitattributes` Configuration:**
+
+A `.gitattributes` file in the project root must be configured to tell LFS which file types to track.
+
+**Example `.gitattributes` file:**
+
+Unreal Engine Assets
+```
+*.uasset filter=lfs diff=lfs merge=lfs -text
+*.umap filter=lfs diff=lfs merge=lfs -text
+*.ubulk filter=lfs diff=lfs merge=lfs -text
+*.ushader filter=lfs diff=lfs merge=lfs -text
+```
+
+Other large files
+```
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+```
+
+<br> 
+
+## **B. Resilio Sync (Source File Repository)**
+
+**[Resilio Sync](/resilio-sync)** will be used for a shared folder containing all **work-in-progress and source files**. These are the files *before* they are imported into Unreal Engine.
+
+* **Purpose:** To keep the Git repository clean by storing only game-ready assets (`.uasset`). Source files (`.blend`, `.psd`, `.spp`, `.zpr`, high-quality audio files, etc.) are heavy and do not need to be versioned along with the project.
+* **Suggested Structure:** The folder structure in Resilio Sync should mirror the project's `Content/` folder structure to maintain consistency.
+
+**Example structure in Resilio Sync:**
+* `ResilioSync_MainFolder/`
+    * `Art_Source/`
+        * `Characters/`
+            * `Player/` (Contains: `Player.blend`, `Player_Textures.spp`, etc.)
+            * `Enemies/`
+                * `Grunt/` (Contains: `Grunt.zpr`, `Grunt_Bake.fbx`, etc.)
+        * `Environments/`
+            * `Props/`
+                * `Furniture/` (Contains: `Chair_Dining_A.fbx`, `Chair_Textures/`, etc.)
+    * `Audio_Source/`
+        * `Music/` (Contains Reaper/FL Studio projects, etc.)
+        * `SFX/` (Contains original `.wav` recordings)
+    * `Design_Docs/` (Game Design Documents, scripts)
+
+---
+
+# **3. Folder Structure (Content Browser)**
+
+All asset organization will take place within the main `Content/` folder.
+
+* `Content/`
+    * `_ProjectName/` (e.g., `_OurAwesomeGame/`) – Core game systems
+        * `Core/` – GameMode, PlayerController, GameInstance, GameState, etc.
+        * `Data/` – Data Tables, Enums, Structs, Data Assets (e.g., item data, enemy stats)
+        * `Input/` – Input Actions, Input Mapping Contexts
+        * `Interfaces/` – Blueprint Interfaces (BPIs)
+        * `SaveGames/` – Save Game Blueprints
+        * `UI_Framework/` – Core UI widgets, HUD, base UI classes
+    * `Art/` – Visual assets
+        * `Characters/` – Player characters, NPCs, enemies, and their related assets
+            * `[CharacterName]/` – Meshes, Materials, Textures, Skeletons, Physics Assets
+        * `Animations/` – Shared animations, Animation Blueprints (ABPs)
+        * `Environments/` – Props, modular pieces, landscapes, foliage
+            * `Props/` – Categorized (e.g., `Furniture/`, `Interactive/`, `Static/`)
+            * `Modular/` – Building blocks (walls, floors, etc.)
+            * `Foliage/` – Trees, bushes, grass
+            * `Landscape/` – Landscape materials, layers
+        * `FX/` – Visual effects (Niagara, Cascade)
+            * `Particles/` – Niagara Systems (NS), Emitters (NE)
+            * `Decals/` – Decal materials
+            * `Materials/` – Generic materials and functions
+                * `MasterMaterials/` – Base materials
+                * `MaterialFunctions/` – Material functions (MF)
+                * `Instances/` – Material Instances (MI) organized by type
+            * `Textures/` – Generic textures, utility textures (masks, noises)
+        * `UI/` – UI specific textures, fonts, widgets
+            * `Widgets/` – Specific WBP classes
+            * `Icons/` – UI icons
+            * `Fonts/` – Font assets
+    * `Audio/` – Sound assets
+        * `Music/` – Background music, ambience music
+        * `SFX/` – Sound effects (weapons, footsteps, UI, environmental)
+        * `Voice/` – Character voice lines, dialogues
+        * `Cues/` – Sound Cues (SC) for more complex audio
+        * `Mixes/` – Sound Mixes, Attenuation, Concurrency settings
+    * `Blueprints/` – Game logic (non-core)
+        * `Gameplay/` – Interactables, pickups, enemies specific logic, game mechanics
+        * `Components/` – Reusable Blueprint Components
+        * `Items/` – Item definitions, inventory system related BPs
+        * `Weapons/` – Weapon BPs
+        * `Traps/` – Trap BPs
+    * `Levels/` – Maps
+        * `Production/` – Main game levels (e.g., `L_Village_Day`, `L_Dungeon_01`)
+        * `Test/` – Levels for testing specific mechanics or assets
+        * `Showcase/` – Levels for demonstrations or promotional content
+        * `Persistent/` – Persistent level if using world composition
+    * `Developers/` – Personal work folders
+        * `[YourName]/` – For individual work in progress
+    * `_External/` – For assets imported from external marketplaces or specific plugins that might not fit neatly into other categories, or for temporary external content.
+
+
+---
+
+# **4. Naming Conventions**
+
+Asset naming will follow the format: **`Prefix_BaseName_Variant_Suffix`**.
+
+## **Asset Prefix Table**
+
+| Asset Type | Prefix | Example |
+| :--- | :--- | :--- |
+| **Blueprint Class** | `BP_` | `BP_PlayerCharacter` |
+| **Widget Blueprint** | `WBP_` | `WBP_MainMenu` |
+| **Static Mesh** | `SM_` | `SM_Rock_A` |
+| **Skeletal Mesh** | `SK_` | `SK_Human_Male` |
+| **Animation Blueprint** | `ABP_` | `ABP_PlayerCharacter` |
+| **Animation Sequence** | `A_` | `A_Human_Walk_Fwd` |
+| **Material** | `M_` | `M_Metal_Steel` |
+| **Material Instance** | `MI_` | `MI_Metal_Steel_Rusted` |
+| **Material Function** | `MF_` | `MF_ColorTint` |
+| **Texture** | `T_` | `T_Wood_Oak_D` |
+| **Sound Wave** | `S_` | `S_Explosion_01` |
+| **Sound Cue** | `SC_` | `SC_Explosion_Large` |
+| **Niagara System** | `NS_` | `NS_Sparks_Impact` |
+| **Niagara Emitter** | `NE_` | `NE_Sparks` |
+| **Level (Map)** | `L_` | `L_Jungle_Temple` |
+| **Data Table** | `DT_` | `DT_WeaponStats` |
+| **Enum** | `E_` | `E_WeaponType` |
+| **Struct** | `ST_` | `ST_PlayerInfo` |
+| **Blueprint Interface** | `BPI_` | `BPI_Interactable` |
 
 <br>
 
-## 2. Naming Conventions
+## **Texture Suffixes**
 
-Maintaining clear and consistent naming conventions is essential for effective project organization and collaboration. By following these conventions, team members can easily understand the content of a file just by looking at its name, which reduces confusion and enhances workflow efficiency. Below are more detailed examples for each type of asset:
+* `_D`: Diffuse / Albedo / Base Color
+* `_N`: Normal Map
+* `_M` or `_ORM`: Mask (usually Ambient Occlusion, Roughness, Metallic)
+* `_E`: Emissive
+* `_H`: Height / Displacement
 
-<br>
+---
 
-### **Blueprints**:  
-Blueprint naming should reflect the role or functionality of the object or system being designed. For example:
-- `BP_Character_Player`: This indicates a Blueprint for a playable character within the game.
-- `BP_Enemy_AI`: Represents a Blueprint for non-playable characters (NPCs) with artificial intelligence.
+# **5. Workflow with Git and Resilio Sync**
 
-<br>
+This is the step-by-step workflow, from source asset creation to its implementation in the game.
 
-### **Textures**:  
-Textures are often categorized based on their use in the game, such as environment, characters, or materials. Examples:
-- `T_Wood_01`: This texture represents a wooden material. It includes a prefix `T_` indicating that it is a texture, followed by the material type (`Wood`) and a number (`01`) to differentiate multiple variations or versions.
-- `T_Metal_02`: Similarly, this texture is a metallic material, with the numbering allowing for multiple versions or specific variations to be easily distinguished.
+**Scenario:** An artist needs to create a new chair for the game.
 
-<br>
-
-### **Static Meshes**:  
-Static meshes are 3D models that do not animate. Naming conventions for these assets include:
-- `SM_Tree_01`: Represents a tree static mesh, where `SM_` stands for Static Mesh, followed by the asset type (`Tree`) and a version number (`01`).
-- `SM_Building_02`: A building model, where `SM_` denotes a static mesh, `Building` indicates the type, and `02` is the version identifier for different models or variations of buildings.
-
-<br>
-
-This standardization allows quick identification of specific static meshes within the project's assets, which is crucial for consistent use throughout different scenes or levels. By adhering to these naming conventions, team members can easily search, categorize, and maintain assets within the Unreal Engine project, promoting better collaboration and project management.
+1.  **Source File Creation:** The artist creates the chair in their 3D software (Blender, Maya). The work file (e.g., `Chair_Modern.blend`) is saved in the appropriate **Resilio Sync** folder (e.g., `Art_Source/Environments/Props/Furniture/`).
+2.  **Export:** The model is exported in an engine-compatible format (e.g., `.fbx`).
+3.  **Import into Unreal Engine:** The artist opens the Unreal project and imports the `.fbx` into their personal work folder: `Content/Developers/[YourName]/`.
+4.  **Asset Development:** Inside their developer folder, the artist creates Materials (`MI_`), adjusts the model (`SM_`), and assembles a Blueprint (`BP_`), if necessary.
+5.  **Testing and Validation:** The asset is tested in a test map to ensure it works as expected.
+6.  **Migration and Cleanup:** Once the asset is finalized and approved, it is moved from the `Developers/[YourName]/` folder to its final location. After moving, run **"Fix Up Redirectors in Folder"** on the `Content` folder to clean up redirectors.
+7.  **Commit to Git:** The artist now "commits" the new `.uasset` files to the Git repository. The commit message should be clear (e.g., "Added SM_Chair_Modern and corresponding materials").
 
 <br>
 
-## 3. Personal Working Folders
+> Remember, anything inside your `Developers/[YourName]/` folder won’t be synced to GitHub when you push.
+{.is-danger}
 
-<br>
 
-Team members actively working on specific tasks should create personal folders under `Development`. Each folder should be named after the individual (e.g., `Development/John`). Once the work is completed and tested, files should be moved into the appropriate root folder.
 
-<br>
+<br> 
 
-## 4. Regular Cleanup and Maintenance
+## **The Golden Rule of Git for Unreal Engine:**
 
-At the conclusion of each team meeting, we will collectively review the file organization. This review will ensure that assets are correctly placed, unused or temporary files are removed, and the overall structure remains clean and functional.
+
+> **COMMUNICATE BEFORE YOU WORK.** 
+{.is-warning}
+
+
+Git does not "lock" files like Perforce. If two people edit the same binary file (especially **Levels** and **complex Blueprints**) at the same time, the merge will be impossible, and someone's work will be lost. **Always communicate to the team which Level or major Blueprint you are working on.**
+
+---
+
+# **6. Maintenance and Best Practices**
+
+* **Fix Up Redirectors:** Clean up redirectors regularly, especially after moving or renaming files, by right-clicking the `Content` folder and selecting the option.
+* **Regular Cleanup:** At the end of each sprint, the team should dedicate time to audit the project folders, delete unused assets, and ensure conventions are being followed.

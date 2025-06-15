@@ -2,8 +2,8 @@
 title: User Interface and User Experience
 description: 
 published: true
-date: 2025-05-10T15:00:54.210Z
-tags: ui, ux, user interface, user experience, outdated
+date: 2025-06-14T12:57:52.015Z
+tags: ui, ux, user interface, user experience
 editor: markdown
 dateCreated: 2025-05-10T15:00:54.210Z
 ---

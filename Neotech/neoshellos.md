@@ -2,8 +2,8 @@
 title: NeoShell OS
 description: 
 published: true
-date: 2025-05-11T21:08:54.541Z
-tags: neotech, neoshell, os
+date: 2025-05-24T16:12:15.414Z
+tags: neotech, neoshell, os, locked
 editor: markdown
 dateCreated: 2025-05-10T15:14:08.218Z
 ---

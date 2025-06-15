@@ -2,19 +2,15 @@
 title: Development Timeline
 description: 
 published: true
-date: 2025-05-10T15:08:06.228Z
-tags: development timeline
+date: 2025-06-14T12:22:39.318Z
+tags: development timeline, locked, outdated
 editor: markdown
 dateCreated: 2025-05-10T15:08:06.228Z
 ---
 
 # Production Plan and Details
 
-This plan accounts for a smaller development team, extending timelines to ensure quality while balancing the team’s workload. It includes detailed phases, tasks, and milestones, spread over a realistic schedule.
-
----
-
-**Total Duration:** ~24-30 months, with flexibility for iteration and unforeseen challenges.
+**Total Duration:** ~24-30 months.
 
 ---
 

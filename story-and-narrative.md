@@ -2,7 +2,7 @@
 title: Story and Narrative
 description: 
 published: true
-date: 2025-05-10T14:37:28.457Z
+date: 2025-06-14T12:52:45.168Z
 tags: story, narrative
 editor: markdown
 dateCreated: 2025-05-10T14:37:28.457Z
@@ -18,9 +18,9 @@ However, their greed started to cloud their judgment, leading to sloppier planni
 
 A turning point came when the global megacorporation NeoTech caused widespread financial turmoil, plunging many, including their families and friends, into poverty. Witnessing their loved ones struggle and suffer reignited their sense of purpose. They decided to channel their skills toward a more significant goal: targeting NeoTech.
 
-Unknown to Leo, Vinny secretly allied with a shadowy organization called ShadeNet, which saw potential in the duo’s talents. ShadeNet subtly aided their operations, ensuring their success and nudging them toward NeoTech as a target.
+Unknown to Leo, Vinny secretly allied with a shadowy organization called Nonexist, which saw potential in the duo’s talents. Nonexist subtly aided their operations, ensuring their success and nudging them toward NeoTech as a target.
 
-Now, Leo and Vinny are no longer just petty thieves; they’ve become driven individuals aiming to dismantle NeoTech’s power and wealth. Their ultimate plan is to infiltrate NeoTech’s most secure systems, steal the CEO's vast cryptocurrency fortune, and destabilize the corporation. While Leo believes they’re acting alone, he remains unaware of ShadeNet’s hidden involvement in their actions.
+Now, Leo and Vinny are no longer just petty thieves; they’ve become driven individuals aiming to dismantle NeoTech’s power and wealth. Their ultimate plan is to infiltrate NeoTech’s most secure systems, steal the CEO's vast cryptocurrency fortune, and destabilize the corporation. While Leo believes they’re acting alone, he remains unaware of Nonexist’s hidden involvement in their actions.
 
 The story has shifted from youthful ambition to a battle against a corporate giant, fueled by personal stakes and a newfound moral drive. As their heists grow bolder and the risks intensify, the question looms: how far are they willing to go, and what price will they pay for their mission?
 
@@ -38,7 +38,7 @@ The technology in this world is a blend of current advancements and speculative 
 
 - Elite Class: Composed of powerful executives, tech innovators, and shareholders who control global corporations like NeoTech.
 - Middle Class: Struggling professionals, technicians, and tradespeople who maintain the infrastructure of society, yet face increasing inequality.
-- Underworld: Comprised of rogue hackers, cybercriminals, and underground organizations like  ShadeNet, who operate outside legal boundaries.
+- Underworld: Comprised of rogue hackers, cybercriminals, and underground organizations like  Nonexist, who operate outside legal boundaries.
 
 ## Themes
 
@@ -52,26 +52,31 @@ The technology in this world is a blend of current advancements and speculative 
 ### Tab {.tabset}
 
 #### **Leo**  
-Leo is a young and ambitious individual, driven by a desire for freedom and the ability to provide for himself and his family. He is bold, resourceful, and quick-thinking, with a rebellious streak that pushes him to challenge the systems that oppress him. While skilled in physical infiltration and deception, he often acts on impulse, which can lead to risky situations. Despite his flaws, his loyalty to those he cares about is unwavering.
 
-- **Personality**: Bold, resourceful, impulsive, loyal  
-- **Skills**: Physical infiltration, deception, quick thinking  
+Twenty-one, geek-athletic (especially a runner), always wears headphones.
 
-**Physical Description**  
-- Athletic build with a lean, muscular frame, reflecting his agility and physical prowess.  
-- Wears practical, dark clothing for stealth, such as a fitted jacket, cargo pants, and lightweight boots.  
-- His face shows determination, with a sharp jawline and eyes that reveal both courage and a hint of recklessness.  
+Leo has the lithe, toned physique of a runner, lean muscle, tight core, and long, springy legs that seem made to move. His posture is upright and confident, his steps light and rhythmic, like he's always ready to take off. There’s an alertness in his every movement, like his body has muscle memory of constant motion.
+
+His skin is sun-kissed, especially on his arms and face, with a natural tan and the occasional faint freckle across the bridge of his nose and cheeks. His eyes are dark and sharp, half-shielded most of the time by the band of his over-ear headphones or the hood of his sweatshirt.
+
+His hair is light brown, cropped short on the sides and longer on top, slightly tousled in a way that looks effortless but stylish, often damp from sweat or windblown from a run. He wears a bit of stubble on his chin and jaw, not quite intentional, but not neglected either.
+
+Leo’s wardrobe is minimalist and athletic: breathable tech-fabric shirts, running shorts even when he’s not working out, and well-worn performance sneakers with flecks of dirt or city dust. If it’s chilly, he throws on a zip-up hoodie, often with paint stains, wear marks, or the lingering scent of pavement and fresh air.
+
+He always wears a smart band or sports watch on his left wrist. Music is a constant companion; his fingers often tap against his thigh or twitch subtly in time with a beat only he can hear. His smile is rare, but when it comes, it’s bright and real, open and unaffected, like sunlight breaking through clouds.
 
 #### **Vinny**  
-Vinny is the brain behind their operations, a tech-savvy mastermind with a knack for hacking and understanding complex systems. Quiet and methodical, he complements Leo's reckless approach with precision and foresight. While Leo focuses on the physical aspect of their heists, Vinny handles the technical details—bypassing security systems, manipulating data, and ensuring their escape routes remain secure.
+Nerdy, early twenties, with intense, restless eyes.
 
-- **Personality**: Methodical, intelligent, introverted, cautious  
-- **Skills**: Hacking, cybersecurity, technical manipulation  
+Vinny has a slim build, with a slight forward hunch, the posture of someone used to hunching over books or screens for long hours. His skin is pale, with a subtle, persistent undertone of sleeplessness under his eyes, which are large, honey-brown with golden flecks, and constantly scanning, as if his brain never quite shuts off. There’s an intensity in his gaze that can feel overwhelming, like he’s always mid-thought, even when silent.
 
-**Physical Description**  
-- Slender and slightly hunched, reflecting his long hours at a desk.  
-- Casual, minimalist attire, such as a hoodie, jeans, and glasses.  
-- His appearance is less polished than Leo's, with an intellectual aura complemented by a focused, calculating expression.  
+His dark brown hair is thick and slightly wavy, perpetually messy, as if he’s run his fingers through it dozens of times throughout the day — and he has. Strands fall onto his forehead without care, and he rarely bothers to brush them aside.
+
+His face is angular, with a narrow jawline, a sharp nose, and thin lips that are often pressed together in thought or slightly bitten, a nervous habit. He wears thin-rimmed glasses that he frequently pushes up with his index finger, almost unconsciously.
+
+Vinny dresses in layered clothes: geeky graphic T-shirts, usually under open flannel shirts, and often a heavy hoodie on top, even when it's not cold, more out of comfort than necessity. His jeans are worn at the knees, and his sneakers are scuffed and loosely tied.
+
+His body is rarely still, fingers tap, feet fidget, one leg bounces when crossed. There's a jittery, kinetic quality to him, like his body is struggling to keep pace with his thoughts. He speaks fast, with a hint of excitement or urgency, and his eyes never settle on one place for long.
 
 #### **Leo’s Parents**  
 Leo’s parents are hardworking but struggling to make ends meet. His father works long hours in a factory, while his mother manages the household, caring for Leo’s younger sister, Clara. They are supportive of Leo’s ambitions, though they worry about the risks he takes. Their simple lives contrast starkly with the wealth and power of the corporate elite.
