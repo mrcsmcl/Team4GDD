@@ -2,7 +2,7 @@
 title: Story Dialogue
 description: 
 published: true
-date: 2025-06-14T12:55:02.325Z
+date: 2025-06-15T15:55:03.793Z
 tags: story, narrative, dialogue
 editor: markdown
 dateCreated: 2025-05-10T14:44:54.357Z
@@ -774,7 +774,7 @@ They both look at the backpack with the SignalPro-X, knowing that they now have 
 
 ---
 
-# Chapter 04
+# Chapter 05
 
 ## Scene 1 - Strategy and Entry
 
