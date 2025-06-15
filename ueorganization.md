@@ -2,7 +2,7 @@
 title: Unreal Engine File Organization and Naming Guide
 description: 
 published: true
-date: 2025-06-14T13:18:28.875Z
+date: 2025-06-15T23:32:21.278Z
 tags: files, organization, unreal engine
 editor: markdown
 dateCreated: 2025-05-10T15:11:31.338Z
@@ -219,3 +219,53 @@ Git does not "lock" files like Perforce. If two people edit the same binary file
 
 * **Fix Up Redirectors:** Clean up redirectors regularly, especially after moving or renaming files, by right-clicking the `Content` folder and selecting the option.
 * **Regular Cleanup:** At the end of each sprint, the team should dedicate time to audit the project folders, delete unused assets, and ensure conventions are being followed.
+
+
+# 7. Utilizing Sublevels for Level Organization
+
+In Unreal Engine projects, especially in large and complex environments, the use of **Sublevels** is an essential practice for improving performance, optimizing workflow, and allowing multiple team members to work simultaneously on different parts of the same level.
+
+## What are Sublevels?
+
+A sublevel is essentially a "level within a level." A main level, known as the **Persistent Level**, can load multiple sublevels. Each sublevel contains a specific set of actors (Static Meshes, Blueprints, Lights, Particle Effects, etc.) which, when loaded, become part of the overall level.
+
+### How do they work?
+
+1. **Loading and Unloading:** Sublevels can be dynamically loaded and unloaded at runtime. This is crucial for performance optimization, as you can load only the parts of the level the player is currently seeing or interacting with, and unload those that are not needed.
+
+2. **Collaboration:** The biggest advantage of sublevels for workflow is the ability for multiple artists, designers, and programmers to work on the same level simultaneously without conflicts. Each team member can focus on a specific sublevel (e.g., an environment artist on `L_HouseModel`, a designer on `L_Blueprints`, and a lighting artist on `L_Lighting`). When saved, only the `.umap` files of the modified sublevels are changed, minimizing merge conflicts in Git.
+
+3. **Organization:** Sublevels allow for a logical and thematic organization of level elements. Instead of having thousands of actors in a single monolithic level, you group them by category (3D assets, gameplay, lighting, etc.), making the level more manageable and easier to navigate.
+
+### Sublevel Workflow
+
+When creating a new level, you'll start with a Persistent Level. Instead of adding all your assets directly to it, you'll create and add sublevels for each category of elements.
+
+1. **Creating the Persistent Level:** Create a new main level (e.g., `L_Village_Day`). This will be the Persistent Level and is where you'll manage the sublevels.
+
+2. **Creating Sublevels:** In the "Levels" panel (Window > Levels), click on "Levels" > "Create New..." to create new sublevels. Save them in the folder `Content/Levels/Production/` within a subfolder corresponding to your main level (e.g., `Content/Levels/Production/Village/`).
+
+3. **Adding Assets to Sublevels:** Make the desired sublevel "Current" (by double-clicking the sublevel name in the "Levels" panel). All assets you add or move to the level will now be placed in that sublevel.
+
+4. **Management:** In the "Levels" panel, you can control the visibility, loading, and locking of each sublevel, making it easier to focus on specific parts of your environment.
+
+## Sublevel Structure for Project Levels
+
+To maintain consistency and clarity, all levels in our project will be divided into specific category sublevels. While the exact structure may vary slightly depending on the level's complexity, the principle of separating elements is fundamental.
+
+Below is a table outlining the sublevel structure. This allows for clear organization and parallel development across different levels.
+
+| Level Name (Persistent)      | Category                    | Sublevel Name Example     | Purpose                                                        |
+|------------------------------|-----------------------------|---------------------------|----------------------------------------------------------------|
+| `L_House_L1`         | **3D Assets**               | `L_House_Decals`          | Various decals (bullet holes, dirt, graffiti).                |
+|                              |                             | `L_House_Furniture`       | Furniture and props inside the house.                         |
+|                              |                             | `L_House_Model`           | The main geometry of the house (walls, roof, floor).          |
+|                              |                             | `L_House_PrimaryAssets`   | Primary and highly important visual assets not in other categories. |
+|                              | **Gameplay**               | `L_House_Blueprints`      | Level-specific Blueprints (triggers, interactive doors, NPCs).|
+|                              |                             | `L_House_Cinematics`      | Cinematic sequences and story events.                         |
+|                              | **Lighting & Post Processing** | `L_House_Audio`        | Ambient sound cues, level-specific audio cues.                |
+|                              |                             | `L_House_Lightning`       | Lights (point, directional, rectangular, etc.), light volumes.|
+|                              |                             | `L_House_VFX`             | Visual effects (smoke, dust, environmental particles).        |
+|                              | **Miscellaneous**          | `L_House_City`            | Parts of the city or external environment (visible, not playable). |
+|                              |                             | `L_House_ScaleReference`  | For scale reference during development only (to be removed).  |
+
