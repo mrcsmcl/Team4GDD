@@ -2,7 +2,7 @@
 title: Story and Narrative
 description: 
 published: true
-date: 2025-06-14T12:52:45.168Z
+date: 2025-06-15T20:30:57.271Z
 tags: story, narrative
 editor: markdown
 dateCreated: 2025-05-10T14:37:28.457Z
@@ -78,8 +78,8 @@ Vinny dresses in layered clothes: geeky graphic T-shirts, usually under open fla
 
 His body is rarely still, fingers tap, feet fidget, one leg bounces when crossed. There's a jittery, kinetic quality to him, like his body is struggling to keep pace with his thoughts. He speaks fast, with a hint of excitement or urgency, and his eyes never settle on one place for long.
 
-#### **Leo’s Parents**  
-Leo’s parents are hardworking but struggling to make ends meet. His father works long hours in a factory, while his mother manages the household, caring for Leo’s younger sister, Clara. They are supportive of Leo’s ambitions, though they worry about the risks he takes. Their simple lives contrast starkly with the wealth and power of the corporate elite.
+#### **Vinny’s Parents**  
+Vinny’s parents are hardworking but struggling to make ends meet. His father works long hours in a factory, while his mother manages the household, caring for Vinny’s younger sister, Clara. They are supportive of Vinny’s ambitions, though they worry about the risks he takes. Their simple lives contrast starkly with the wealth and power of the corporate elite.
 
 - **Father**: Hardworking, caring, struggling  
 - **Mother**: Supportive, protective, loving  
@@ -89,14 +89,14 @@ Leo’s parents are hardworking but struggling to make ends meet. His father wor
 
 **Father**  
 - Worn features, rough hands, and a tired posture from years of factory work.  
-- Represents the struggle of the working class and the driving force behind Leo’s ambitions.  
+- Represents the struggle of the working class and the driving force behind Vinny’s ambitions.  
 
 **Mother**  
 - Gentle and caring demeanor with a nurturing presence.  
-- Symbolizes the emotional anchor for Leo, reminding him of what he’s fighting for. 
+- Symbolizes the emotional anchor for Vinny, reminding him of what he’s fighting for. 
 
 #### **Clara**  
-Clara is Leo’s younger sister, full of curiosity and a desire to understand her brother’s mysterious life. Though she doesn’t fully comprehend the danger Leo puts himself in, she admires his determination and courage. Her innocence and youthful energy contrast with the dark world Leo and Vinny navigate, and her trust in her brother motivates him to strive for a better future.
+Clara is Vinny’s younger sister, full of curiosity and a desire to understand her brother’s mysterious life. Though she doesn’t fully comprehend the danger Vinny puts himself in, she admires his determination and courage. Her innocence and youthful energy contrast with the dark world Vinny and Vinny navigate, and her trust in her brother motivates him to strive for a better future.
 
 - **Personality**: Innocent, curious, admiring, trusting  
 - **Skills**: Innocence, hope, emotional resilience
