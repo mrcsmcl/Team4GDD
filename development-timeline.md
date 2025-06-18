@@ -2,7 +2,7 @@
 title: Development Timeline
 description: 
 published: true
-date: 2025-06-15T23:27:57.376Z
+date: 2025-06-18T23:35:25.083Z
 tags: outdated, development timeline, locked
 editor: markdown
 dateCreated: 2025-05-10T15:08:06.228Z
@@ -10,14 +10,24 @@ dateCreated: 2025-05-10T15:08:06.228Z
 
 # Summary
 
-| Phase                       | Start Date     | End Date       | Duration (Months) |
+| Phase | Start Date | End Date | Duration (Months) |
 | :-------------------------- | :------------- | :------------- | :---------------- |
-| Prototyping                 | July 2025      | July 2025      | 1                 |
-| Pre-Production              | August 2025    | November 2025  | 4                 |
-| Main Production (Early Access) | December 2025  | June 2026      | 7                 |
-| NeoTech Saga (Final Launch) | July 2026      | December 2026  | 6                 |
-| **Total**                   |                |                | **18**            |
+| Prototyping | July 2025 | July 2025 | 1 |
+| Pre-Production | August 2025 | November 2025 | 4 |
+| Main Production (Early Access) | December 2025 | June 2026 | 7 |
+| NeoTech Saga (Final Launch) | July 2026 | December 2026 | 6 |
+| **Total** | | | **18** |
 
+## Launch Milestones Overview:
+
+* **Internal Alpha:** Early July 2025
+* **External Alpha:** Early December 2025
+* **Beta:** Late May 2026
+* **Early Access Launch:** Late June 2026
+* **Another Beta:** Late October 2026
+* **Release Candidate:** November 2026
+* **Gold:** Late November 2026
+* **Full Release:** December 2026
 
 # Details of the Phases:
 
@@ -30,6 +40,8 @@ dateCreated: 2025-05-10T15:08:06.228Z
     * **Essential Mechanics Prototyping:** Implement and test core cooperative mechanics, focusing on Leo's stealth/traversal and Vinny's Digital Realm navigation (cameras, doors, alarms) and their real-time impact on Leo's 3D environment.
     * **Tool & Pipeline Setup:** Configure Unreal Engine 5.5, GitFlow for version control, and Resilio Sync for large file storage. Establish naming conventions.
     * **Basic Concept Testing:** Rapidly test fundamental gameplay elements and role synergy.
+* **Launch Milestones:**
+    * **Internal Alpha:** Early July 2025.
 * **Deliverables:** Consolidated GDD, functional core mechanic prototypes, configured development environment.
 
 ## 2. Pre-Production & "Vertical Slice" Phase
@@ -43,6 +55,8 @@ dateCreated: 2025-05-10T15:08:06.228Z
     * **Initial AI:** Develop basic AI for Security Guards (patrols, alerts) and digital defense systems.
     * **User Interface (UI):** Create basic, minimalist UI elements for both Operative and Oracle views.
     * **Demo Polishing & Testing:** Conduct intensive testing for stability and bug fixing.
+* **Launch Milestones:**
+    * **External Alpha:** Early December 2025.
 * **Deliverables:** Complete, polished, and playable "vertical slice" demo (Chapter 01).
 
 ## 3. Main Production Phase & Early Access Launch
@@ -58,7 +72,9 @@ dateCreated: 2025-05-10T15:08:06.228Z
     * **Chapter 06 (NeoTech Crisis & Decision):** Deepen the impact of the NeoTech crisis on families, introduce the Nonexist organization, and culminate in the decision to target NeoTech (but not directly infiltrate its headquarters yet).
     * **Advanced AI Development:** Expand Security Guard behaviors, implement Player-Induced Suspicion, and Persistent Alert systems.
     * **Large-Scale Asset Production:** Create extensive 3D models, textures, animations, and sound effects for new environments and mechanics.
-    * **Early Access Launch:** Release the game with Chapters 01-06 to gather community feedback.
+* **Launch Milestones:**
+    * **Beta:** Late May 2026.
+    * **Early Access Launch:** Late June 2026.
 * **Deliverables:** Early Access version with Chapters 01-06, expanded AI/gameplay systems, and functional tools/upgrades.
 
 ## 4. NeoTech Saga Development, Polishing, & Final Launch
@@ -75,4 +91,9 @@ dateCreated: 2025-05-10T15:08:06.228Z
     * **Localization:** Translate all text and subtitles.
     * **Final Marketing Material:** Produce launch trailers, screenshots, and promotional materials.
     * **Certification & Launch:** Prepare for platform certification and officially launch the full game.
+* **Launch Milestones:**
+    * **Beta:** Late October 2026.
+    * **Release Candidate:** November 2026.
+    * **Gold:** Late November 2026.
+    * **Full Release:** December 2026.
 * **Deliverables:** Final optimized and polished game (all 10 chapters), marketing materials, and official launch by December 2026.
