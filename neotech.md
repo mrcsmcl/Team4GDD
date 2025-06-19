@@ -2,7 +2,7 @@
 title: The Complete History of NeoTech
 description: 
 published: true
-date: 2025-06-17T00:43:24.291Z
+date: 2025-06-19T01:14:57.667Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-17T00:42:50.917Z
@@ -279,7 +279,7 @@ On June 16, 2025, NeoTech stood as an indomitable force of nature. Yet, by Octob
 
 ## The Catalyst: The NeoHorizon Data Leak (Mid-2033)
 
-The unraveling began with a subtle anomaly, detected not by a human auditor, but by a highly advanced Artificial Intelligence. Within NeoHorizon, NeoTech's cutting-edge R&D division, a specialized sub-unit focused on AI Ethics, led by Dr. Aris Thorne (a trusted protégé of founder Arthur Vance), was tasked with rigorously auditing NeoTech's internal systems to ensure their ethical operation and absolute data integrity.
+The unraveling began with a subtle anomaly, detected not by a human auditor, but by a highly advanced Artificial Intelligence. Within NeoHorizon, NeoTech's cutting-edge R&D division, a specialized sub-unit focused on AI Ethics, led by Prof. Dr. Helena Moretti (a trusted protégé of founder Arthur Vance), was tasked with rigorously auditing NeoTech's internal systems to ensure their ethical operation and absolute data integrity.
 
 Thorne's AI, codenamed "Veritas," began to flag microscopic yet persistent discrepancies between the aggregated data reported for the Global Infrastructure Basket (GIB) – the meticulously engineered backing for NeoCoin (NCX) – and the raw, real-time sensor data flowing from the company's various operational pillars. For instance, NeoPower would consistently report a fusion energy output that was 0.5% higher than actual generation. Similarly, NeoConnect would subtly inflate its data traffic reports by fractional percentage points.
 
