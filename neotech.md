@@ -2,7 +2,7 @@
 title: The Complete History of NeoTech
 description: 
 published: true
-date: 2025-06-19T01:14:57.667Z
+date: 2025-06-19T01:19:28.971Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-17T00:42:50.917Z
@@ -281,11 +281,11 @@ On June 16, 2025, NeoTech stood as an indomitable force of nature. Yet, by Octob
 
 The unraveling began with a subtle anomaly, detected not by a human auditor, but by a highly advanced Artificial Intelligence. Within NeoHorizon, NeoTech's cutting-edge R&D division, a specialized sub-unit focused on AI Ethics, led by Prof. Dr. Helena Moretti (a trusted protégé of founder Arthur Vance), was tasked with rigorously auditing NeoTech's internal systems to ensure their ethical operation and absolute data integrity.
 
-Thorne's AI, codenamed "Veritas," began to flag microscopic yet persistent discrepancies between the aggregated data reported for the Global Infrastructure Basket (GIB) – the meticulously engineered backing for NeoCoin (NCX) – and the raw, real-time sensor data flowing from the company's various operational pillars. For instance, NeoPower would consistently report a fusion energy output that was 0.5% higher than actual generation. Similarly, NeoConnect would subtly inflate its data traffic reports by fractional percentage points.
+Moretti's AI, codenamed "Veritas," began to flag microscopic yet persistent discrepancies between the aggregated data reported for the Global Infrastructure Basket (GIB) – the meticulously engineered backing for NeoCoin (NCX) – and the raw, real-time sensor data flowing from the company's various operational pillars. For instance, NeoPower would consistently report a fusion energy output that was 0.5% higher than actual generation. Similarly, NeoConnect would subtly inflate its data traffic reports by fractional percentage points.
 
 Individually, these appeared to be mere rounding errors. However, when aggregated on a global scale and meticulously tracked over several years, they painted a chilling picture: the valuation of the GIB, and consequently the perceived stability and value of NeoCoin (NCX) – which had been lauded as the most stable currency in the world – was being systematically and artificially inflated. It was a fraud of exquisite subtlety, elegant in its execution, and virtually undetectable to external auditors who only had access to the sanitized final reports.
 
-Horrified by his discovery, Dr. Thorne immediately escalated his findings to the NeoTech board of directors. The initial response was one of staunch denial, swiftly followed by thinly veiled threats. Realizing that the systemic corruption extended to the highest echelons of the company, Thorne made an unthinkable decision: he meticulously leaked his complete internal report, along with the raw, irrefutable data from the Veritas AI, to a globally coordinated consortium of investigative journalists.
+Horrified by his discovery, Dr. Moretti immediately escalated his findings to the NeoTech board of directors. The initial response was one of staunch denial, swiftly followed by thinly veiled threats. Realizing that the systemic corruption extended to the highest echelons of the company, Moretti made an unthinkable decision: he meticulously leaked his complete internal report, along with the raw, irrefutable data from the Veritas AI, to a globally coordinated consortium of investigative journalists.
 
 ## The Formal Accusation: Market Manipulation and the "Chimera Project" (October 2, 2033)
 
