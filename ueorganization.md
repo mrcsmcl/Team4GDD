@@ -2,7 +2,7 @@
 title: Unreal Engine File Organization and Naming Guide
 description: 
 published: true
-date: 2025-06-15T23:32:21.278Z
+date: 2025-06-19T19:29:55.526Z
 tags: files, organization, unreal engine
 editor: markdown
 dateCreated: 2025-05-10T15:11:31.338Z
@@ -173,9 +173,10 @@ Asset naming will follow the format: **`Prefix_BaseName_Variant_Suffix`**.
 
 ## **Texture Suffixes**
 
-* `_D`: Diffuse / Albedo / Base Color
+* `_BC`: Base Color
+* `_D`: Diffuse / Albedo
 * `_N`: Normal Map
-* `_M` or `_ORM`: Mask (usually Ambient Occlusion, Roughness, Metallic)
+* `_ORM`: Mask (usually Ambient Occlusion, Roughness, Metallic)
 * `_E`: Emissive
 * `_H`: Height / Displacement
 
