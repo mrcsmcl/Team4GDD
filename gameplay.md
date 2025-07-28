@@ -2,7 +2,7 @@
 title: Gameplay
 description: 
 published: true
-date: 2025-07-28T23:14:19.603Z
+date: 2025-07-28T23:15:31.120Z
 tags: gameplay
 editor: markdown
 dateCreated: 2025-05-10T14:33:57.494Z
@@ -36,11 +36,11 @@ dateCreated: 2025-05-10T14:33:57.494Z
         
 ##  **Hacking Minigames**
 * Beginnning a hack can lead to a wide variety of different minigames that need to be completed for the hack to be accessible. Each minigame has a time limit that will cause access to be denied should they fail to complete the minigame in that time.
-		***Symbol Matching Minigame:** In this minigame, Vinny is given a collection of different symbols to decipher and a variety of options that change constantly to whittle away different parts of the overall symbol.
-    ***Keyword Minigame:** In this minigame, Vinny is given an ever-changing keyword that he has to decipher, along with different letters to attempt to whittle away at the overall word before selecting the option that is the correct keyword.
-    ***Flow Minigame:** In this minigame, Vinny must match up color-coded flows to the proper endpoint.
-    ***Frogger-Type Minigame:** Playing very similar to something like Frogger, the player must guid their avatar across a flat screen, using certain moving objects for "floatation" against the endless black void while avoiding other objects that, upon contact, will kill the player and force them to start over.
-    	***Break-Away Minigame:** In this minigame, players are required to reach an area surrounded by "breakable" material that they must break through, though some are trapped and will send the player back to the beginning (a la Minesweeper and Dig Dug). Some materials are also much stronger than others and force players to work around them in order to progress.
+			* **Symbol Matching Minigame:** In this minigame, Vinny is given a collection of different symbols to decipher and a variety of options that change constantly to whittle away different parts of the overall symbol.
+    	* **Keyword Minigame:** In this minigame, Vinny is given an ever-changing keyword that he has to decipher, along with different letters to attempt to whittle away at the overall word before selecting the option that is the correct keyword.
+    	* **Flow Minigame:** In this minigame, Vinny must match up color-coded flows to the proper endpoint.
+    	* **Frogger-Type Minigame:** Playing very similar to something like Frogger, the player must guid their avatar across a flat screen, using certain moving objects for "floatation" against the endless black void while avoiding other objects that, upon contact, will kill the player and force them to start over.
+    	 * **Break-Away Minigame:** In this minigame, players are required to reach an area surrounded by "breakable" material that they must break through, though some are trapped and will send the player back to the beginning (a la Minesweeper and Dig Dug). Some materials are also much stronger than others and force players to work around them in order to progress.
     
     
 
