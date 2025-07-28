@@ -2,7 +2,7 @@
 title: Project Overview
 description: 
 published: true
-date: 2025-06-14T11:21:03.947Z
+date: 2025-07-28T23:28:57.546Z
 tags: overview
 editor: markdown
 dateCreated: 2025-05-10T13:03:51.326Z
@@ -57,8 +57,10 @@ Digital Realm (Oracle’s View):
   - *Superhot* (stylized aesthetics and tension);
   - *Keep Talking and Nobody Explodes* (cooperation and communication);
   - *Hacknet* (realistic hacking simulation);
-  - *This is the Game* (creepy horror/puzzle game that takes you into the world of the Deep Web);
+  - *Welcome to the Game* (creepy horror/puzzle game that takes you into the world of the Deep Web);
   - *Deus Ex: Human Revolution*;
+  - *Watch_Dogs* (pretty much all about hacking);
+  - *Sly Cooper* (creative hacking minigames);
   
 
 - **Movies and Series:**  
@@ -66,6 +68,7 @@ Digital Realm (Oracle’s View):
   - *Sneakers* (team-based infiltration);
   - *Enemy of the State* (surveillance tech);
   - *Inception* (creative use of environments and puzzles).
+  - *24* (Fast pacing with quick computer hacking while someone else is in the field, fighting enemies);
 
 - **Real-World Tech:**
 	- Modern CCTV networks;
