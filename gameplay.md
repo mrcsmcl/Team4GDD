@@ -2,7 +2,7 @@
 title: Gameplay
 description: 
 published: true
-date: 2025-06-14T12:48:57.143Z
+date: 2025-07-28T23:04:49.592Z
 tags: gameplay
 editor: markdown
 dateCreated: 2025-05-10T14:33:57.494Z
@@ -33,6 +33,14 @@ dateCreated: 2025-05-10T14:33:57.494Z
         * **Environmental Control:** Vinny can remotely manipulate certain environmental elements in Leo's 3D world, such as **turning lights on or off** within hacked power grids, or triggering minor distractions.
         * **Multitasking:** Vinny must manage time-sensitive tasks while Leo navigates physical threats, often requiring quick decision-making and precise digital interaction.
         * **Tool Upgrades:** New tools unlock as missions progress, allowing more advanced system manipulation within the Digital Realm.
+        
+##  **Hacking Minigames**
+* Beginnning a hack can lead to a wide variety of different minigames that need to be completed for the hack to be accessible.
+		***Symbol Matching Minigame:** In this minigame, Vinny is given a collection of different symbols to decipher and a variety of options that change constantly to whittle away different parts of the overall symbol.
+    ***Keyword Minigame:** In this minigame, Vinny is given an ever-changing keyword that he has to decipher, along with different letters to attempt to whittle away at the overall word before selecting the option that is the correct keyword.
+    ***Flow Minigame:** In this minigame, Vinny must match up color-coded flows to the proper endpoint.
+    
+    
 
 ##  **Synchronization and Teamwork**
 
