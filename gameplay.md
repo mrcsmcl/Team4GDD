@@ -2,7 +2,7 @@
 title: Gameplay
 description: 
 published: true
-date: 2025-07-28T23:17:21.534Z
+date: 2025-07-30T03:13:45.489Z
 tags: gameplay
 editor: markdown
 dateCreated: 2025-05-10T14:33:57.494Z
@@ -42,6 +42,8 @@ dateCreated: 2025-05-10T14:33:57.494Z
     	* **Frogger-Type Minigame:** Playing very similar to something like Frogger, the player must guid their avatar across a flat screen, using certain moving objects for "floatation" against the endless black void while avoiding other objects that, upon contact, will kill the player and force them to start over.
     	 * **Break-Away Minigame:** In this minigame, players are required to reach an area surrounded by "breakable" material that they must break through, though some are trapped and will send the player back to the beginning (a la Minesweeper and Dig Dug). Some materials are also much stronger than others and force players to work around them in order to progress.
        * **Key-Finding Minigame:** Players must go through a maze and find the correct key to unlock an area within a given time limit, all while being chased by "Dragons" who will send them back to the beginning and change up the maze. Bringing back the incorrect key will result in an automatic failure. (reference: Adventure (1980))
+       
+       ![hacker_world_hud_visuals.jpg](/hacker_world_hud_visuals.jpg)
     
     
 
