@@ -2,7 +2,7 @@
 title: Gameplay
 description: 
 published: true
-date: 2025-07-30T03:13:45.489Z
+date: 2025-08-07T04:31:17.892Z
 tags: gameplay
 editor: markdown
 dateCreated: 2025-05-10T14:33:57.494Z
@@ -24,6 +24,20 @@ dateCreated: 2025-05-10T14:33:57.494Z
         * **Device Attachment:** Leo can attach specialized devices to physical objects (e.g., security panels, servers) in the 3D environment, creating a digital gateway for Vinny to hack. These devices are visible to enemies and must be placed carefully to avoid detection.
         * **Information Gathering:** Leo may need to locate and identify specific **serial numbers, access codes, or physical data points** within the 3D environment for Vinny to use as input for advanced hacking operations in the Digital Realm.
         * **Guided Navigation:** Leo must follow Vinny's guidance to avoid invisible **digital barriers** (e.g., "corrupted data streams," "digital tripwires") that exist only within the 2D Digital Realm. Passing through these areas, despite no physical obstacle in the 3D world, will trigger alarms or alert digital defenses. If Vinny is wearing specific AR glasses, Leo may see a **holographic avatar of Vinny** within the 3D environment, providing visual cues for digital threats or pathways.
+        
+##  **Enemy AI**
+* Enemies at the beginning of each level are completely unaware of Leo's presence, though chances are it won't be long before they start to realize if something is wrong.
+* A wide variety of events could trigger an alert state for enemies, and once in that state, it will be harder for Leo to successfully move around without being spotted.
+		* **Factors for alert state**
+    * If a guard finds an unconscious member of the group, they will become aware that someone has infiltrated.
+    * If Vinny uses the same distraction (like blaring alarms in a different location to distract them) upwards of three times in a row or 5 times non-sequentially, guards will start to realize this isn't a system glitch and start to look out for Leo.
+    * If Leo successfully escapes from a pursuit and gets out of the fighting state, guards will remain aware of the infiltration and remain vigilant.
+    * After a while, guards will do a radio check, and unless Vinny uses a strategically placed radio hack to jam their communications (which will provide a temporary delay), they will notice if a guard has not checked in and go to alert phase.
+    	* Leo also has the option to take an unconscious guard's radio and attempt to evade suspicion, but this can also go wrong.
+      
+* While in the alert state, guards will detect Leo much quicker if they see him, and will also immediately call for reinforcements.
+* Alert state will go away after a period of about 10 real-world minutes if Leo remains consistently hidden.
+
 
 ##  **Hacking and Digital Manipulation (Vinny)**
 
