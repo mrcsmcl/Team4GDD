@@ -2,7 +2,7 @@
 title: Gameplay
 description: 
 published: true
-date: 2025-08-07T04:31:17.892Z
+date: 2025-08-08T05:01:40.529Z
 tags: gameplay
 editor: markdown
 dateCreated: 2025-05-10T14:33:57.494Z
@@ -37,6 +37,10 @@ dateCreated: 2025-05-10T14:33:57.494Z
       
 * While in the alert state, guards will detect Leo much quicker if they see him, and will also immediately call for reinforcements.
 * Alert state will go away after a period of about 10 real-world minutes if Leo remains consistently hidden.
+
+##  **Chase State**
+* When in the "Chase State" (when guards are actively attacking Leo after detecting him), it's advisable to escape the area and this state immediately rather than fight back. There is an option to attempt to fight against a guard or two, but fighting against a larger group will quickly become overwhelming.
+		* Another incentive to avoid being detected is that some guards have the use of stun guns, which can significantly slow down and debilitate Leo, bringing more opportunities for him to be overrun. If shot with a stun gun, Leo must quickly look to the point of his body and pull the cords out before the intruder pulls the trigger again (thereby shocking them again).
 
 
 ##  **Hacking and Digital Manipulation (Vinny)**
