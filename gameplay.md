@@ -2,7 +2,7 @@
 title: Gameplay
 description: 
 published: true
-date: 2025-08-16T03:52:38.852Z
+date: 2025-08-16T03:56:41.697Z
 tags: gameplay
 editor: markdown
 dateCreated: 2025-05-10T14:33:57.494Z
@@ -27,22 +27,6 @@ dateCreated: 2025-05-10T14:33:57.494Z
         * **Stealth Gameplay:** Leo is strongly encouraged to remain in stealth, and has a move that allows him to silently knock out guards and (possibly) access to stun guns. He can then drag their bodies to a location to hide them, whether it be an unscripted section or one (like a locker) where he can hide them more effectively.
         * **Combat Gameplay:** Though strongly discouraged, Leo is able to get into fights with enemies should he be found and cause an alert state. However, as he can only focus on one enemy at a time effectively (two at the most), he's encouraged to run instead as he will be easily overwhelmed and defeated. Players can block enemy strikes and throw their own in response, timing blocking with their strikes is essential to quickly end the fight, rather than just wildly flailing their arms about. A few strikes will lead to a takedown, granted that the enemy doesn't successfully block them. Players can also only block from one direction at a time, hence the possibility of being overwhelmed easily. (Reference: Dishonored and The Chronicles of Riddick: Escape from Butcher Bay)
         
-##  **Enemy AI**
-* Enemies at the beginning of each level are completely unaware of Leo's presence, though chances are it won't be long before they start to realize if something is wrong.
-* A wide variety of events could trigger an alert state for enemies, and once in that state, it will be harder for Leo to successfully move around without being spotted.
-		* **Factors for alert state**
-    * If a guard finds an unconscious member of the group, they will become aware that someone has infiltrated.
-    * If Vinny uses the same distraction (like blaring alarms in a different location to distract them) upwards of three times in a row or 5 times non-sequentially, guards will start to realize this isn't a system glitch and start to look out for Leo.
-    * If Leo successfully escapes from a pursuit and gets out of the fighting state, guards will remain aware of the infiltration and remain vigilant.
-    * After a while, guards will do a radio check, and unless Vinny uses a strategically placed radio hack to jam their communications (which will provide a temporary delay), they will notice if a guard has not checked in and go to alert phase.
-    	* Leo also has the option to take an unconscious guard's radio and attempt to evade suspicion, but this can also go wrong.
-      
-* While in the alert state, guards will detect Leo much quicker if they see him, and will also immediately call for reinforcements.
-* Alert state will go away after a period of about 10 real-world minutes if Leo remains consistently hidden.
-
-##  **Chase State**
-* When in the "Chase State" (when guards are actively attacking Leo after detecting him), it's advisable to escape the area and this state immediately rather than fight back. There is an option to attempt to fight against a guard or two, but fighting against a larger group will quickly become overwhelming.
-		* Another incentive to avoid being detected is that some guards have the use of stun guns, which can significantly slow down and debilitate Leo, bringing more opportunities for him to be overrun. If shot with a stun gun, Leo must quickly look to the point of his body and pull the cords out before the intruder pulls the trigger again (thereby shocking them again).
 
 
 ##  **Hacking and Digital Manipulation (Vinny)**
