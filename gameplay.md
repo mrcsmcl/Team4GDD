@@ -2,7 +2,7 @@
 title: Gameplay
 description: 
 published: true
-date: 2025-08-08T05:19:40.780Z
+date: 2025-08-16T03:52:38.852Z
 tags: gameplay
 editor: markdown
 dateCreated: 2025-05-10T14:33:57.494Z
@@ -24,6 +24,8 @@ dateCreated: 2025-05-10T14:33:57.494Z
         * **Device Attachment:** Leo can attach specialized devices to physical objects (e.g., security panels, servers) in the 3D environment, creating a digital gateway for Vinny to hack. These devices are visible to enemies and must be placed carefully to avoid detection.
         * **Information Gathering:** Leo may need to locate and identify specific **serial numbers, access codes, or physical data points** within the 3D environment for Vinny to use as input for advanced hacking operations in the Digital Realm.
         * **Guided Navigation:** Leo must follow Vinny's guidance to avoid invisible **digital barriers** (e.g., "corrupted data streams," "digital tripwires") that exist only within the 2D Digital Realm. Passing through these areas, despite no physical obstacle in the 3D world, will trigger alarms or alert digital defenses. If Vinny is wearing specific AR glasses, Leo may see a **holographic avatar of Vinny** within the 3D environment, providing visual cues for digital threats or pathways.
+        * **Stealth Gameplay:** Leo is strongly encouraged to remain in stealth, and has a move that allows him to silently knock out guards and (possibly) access to stun guns. He can then drag their bodies to a location to hide them, whether it be an unscripted section or one (like a locker) where he can hide them more effectively.
+        * **Combat Gameplay:** Though strongly discouraged, Leo is able to get into fights with enemies should he be found and cause an alert state. However, as he can only focus on one enemy at a time effectively (two at the most), he's encouraged to run instead as he will be easily overwhelmed and defeated. Players can block enemy strikes and throw their own in response, timing blocking with their strikes is essential to quickly end the fight, rather than just wildly flailing their arms about. A few strikes will lead to a takedown, granted that the enemy doesn't successfully block them. Players can also only block from one direction at a time, hence the possibility of being overwhelmed easily. (Reference: Dishonored and The Chronicles of Riddick: Escape from Butcher Bay)
         
 ##  **Enemy AI**
 * Enemies at the beginning of each level are completely unaware of Leo's presence, though chances are it won't be long before they start to realize if something is wrong.
@@ -51,6 +53,9 @@ dateCreated: 2025-05-10T14:33:57.494Z
         * **Environmental Control:** Vinny can remotely manipulate certain environmental elements in Leo's 3D world, such as **turning lights on or off** within hacked power grids, or triggering minor distractions.
         * **Multitasking:** Vinny must manage time-sensitive tasks while Leo navigates physical threats, often requiring quick decision-making and precise digital interaction.
         * **Tool Upgrades:** New tools unlock as missions progress, allowing more advanced system manipulation within the Digital Realm.
+        
+##  **(Possible mechanic) Stun Guns**
+* Players can utilize Stun Guns to take enemies out from a short distance, and it can also be useful in a combat situation. However, it's often not recommended as the gun can be pretty loud, leave a trace (namely some confetti that Stun Guns often shoot), and has limited ammo and takes a while to reload.
         
 ##  **Hacking Minigames**
 * Beginnning a hack can lead to a wide variety of different minigames that need to be completed for the hack to be accessible. Each minigame has a time limit that will cause access to be denied should they fail to complete the minigame in that time.
@@ -83,6 +88,9 @@ dateCreated: 2025-05-10T14:33:57.494Z
               * Tier 3: Vinny can disable all alarms permanently.
     * Locked Doors:
     			* Vinny can remotely lock or unlock certain doors that are connected to the network, which could benefit Leo in a chase moment as these doors are typically shatterproof.
+          		* Tier 1: Vinny can open and close remotely locked doors.
+              * Tier 2: Vinny can grant access to rooms with further restricted access (assisted by Leo), which are also much harder to break into than tier 1 doors.
+              * Tier 3: Vinny can disable silent alarms that may or may not be within any of these given rooms.
      * Electricity:
      			* Vinny can shut off lights in a given area.
           			* Tier 1: Vinny can temporarily turn off the lights in a single area, allowing Leo to move around them with more limited visibility.
