@@ -2,7 +2,7 @@
 title: Level and World Design
 description: 
 published: true
-date: 2025-06-14T12:50:56.513Z
+date: 2025-08-16T03:55:26.365Z
 tags: level, world design, flow, level flow, mission
 editor: markdown
 dateCreated: 2025-05-10T14:48:30.408Z
@@ -17,6 +17,7 @@ dateCreated: 2025-05-10T14:48:30.408Z
         * Early levels serve as **tutorials**, introducing players to core mechanics.
         * Mid-levels feature **multi-layered objectives** that require players to strategize.
         * Final levels push players to master the mechanics with time-critical tasks and advanced threats.
+     * Each level is non-linear and has a wide variety of ways to infiltrate successfully as well as challenges that hinder them. Players can also complete objectives in any succession, with the final objective being completable to allow players to escape to the next area.
 
 2.  **Hub System**
     * Between missions, players can access a central **safehouse hub**:
