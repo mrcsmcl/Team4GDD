@@ -2,7 +2,7 @@
 title: Gameplay
 description: 
 published: true
-date: 2025-08-27T19:56:25.092Z
+date: 2025-08-27T19:59:03.765Z
 tags: gameplay
 editor: markdown
 dateCreated: 2025-05-10T14:33:57.494Z
@@ -37,6 +37,8 @@ dateCreated: 2025-05-10T14:33:57.494Z
         * **Environmental Control:** Vinny can remotely manipulate certain environmental elements in Leo's 3D world, such as **turning lights on or off** within hacked power grids, or triggering minor distractions.
         * **Multitasking:** Vinny must manage time-sensitive tasks while Leo navigates physical threats, often requiring quick decision-making and precise digital interaction.
         * **Tool Upgrades:** New tools unlock as missions progress, allowing more advanced system manipulation within the Digital Realm.
+        
+     ![top_down_view_concept(1).jpeg](/top_down_view_concept(1).jpeg)
         
 ##  **(Possible mechanic) Stun Guns**
 * Players can utilize Stun Guns to take enemies out from a short distance, and it can also be useful in a combat situation. However, it's often not recommended as the gun can be pretty loud, leave a trace (namely some confetti that Stun Guns often shoot), and has limited ammo and takes a while to reload.
