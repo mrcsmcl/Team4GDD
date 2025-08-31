@@ -2,7 +2,7 @@
 title: Gameplay
 description: 
 published: true
-date: 2025-08-31T20:01:34.610Z
+date: 2025-08-31T20:19:27.453Z
 tags: gameplay
 editor: markdown
 dateCreated: 2025-05-10T14:33:57.494Z
@@ -53,6 +53,7 @@ dateCreated: 2025-05-10T14:33:57.494Z
        * **Key-Finding Minigame:** Players must go through a maze and find the correct key to unlock an area within a given time limit, all while being chased by "Dragons" who will send them back to the beginning and change up the maze. Bringing back the incorrect key will result in an automatic failure. (reference: Adventure (1980))
        
     ![hacker_world_hud_visuals_(1).jpeg](/hacker_world_hud_visuals_(1).jpeg)
+    * **Hacker World Icons**
     ![project_unknown_hacking_icons.jpg](/project_unknown_hacking_icons.jpg)
     
 
