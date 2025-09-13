@@ -2,7 +2,7 @@
 title: Unreal Engine File Organization and Naming Guide
 description: 
 published: true
-date: 2025-06-19T19:29:55.526Z
+date: 2025-09-13T17:24:48.571Z
 tags: files, organization, unreal engine
 editor: markdown
 dateCreated: 2025-05-10T15:11:31.338Z
@@ -132,6 +132,7 @@ All asset organization will take place within the main `Content/` folder.
     * `Levels/` – Maps
         * `Production/` – Main game levels (e.g., `L_Village_Day`, `L_Dungeon_01`)
         * `Test/` – Levels for testing specific mechanics or assets
+        * `Shared/` – Sublevels that are shared with all the other levels (e.g., UI)
         * `Showcase/` – Levels for demonstrations or promotional content
         * `Persistent/` – Persistent level if using world composition
     * `Developers/` – Personal work folders
