@@ -2,7 +2,7 @@
 title: Level and World Design
 description: 
 published: true
-date: 2025-08-16T03:55:26.365Z
+date: 2025-11-30T04:55:20.453Z
 tags: level, world design, flow, level flow, mission
 editor: markdown
 dateCreated: 2025-05-10T14:48:30.408Z
@@ -122,3 +122,4 @@ dateCreated: 2025-05-10T14:48:30.408Z
 {.links-list}
 - [Level 01 - Vinny's House - Operator Mode](/level-and-world-design/level01opmode)
 {.links-list}
+- [Level 03 - Neotech Harddrive Storage](/level-and-world-design/level03)
