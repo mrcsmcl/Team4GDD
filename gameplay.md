@@ -2,7 +2,7 @@
 title: Gameplay
 description: 
 published: true
-date: 2025-08-31T20:19:27.453Z
+date: 2025-12-01T23:44:15.141Z
 tags: gameplay
 editor: markdown
 dateCreated: 2025-05-10T14:33:57.494Z
@@ -63,6 +63,7 @@ dateCreated: 2025-05-10T14:33:57.494Z
         * **Example:** Vinny disables cameras and laser grids in real time in the Digital Realm as Leo sneaks through the corresponding physical areas, or guides Leo around a digital barrier that is invisible in the 3D world.
         * **Interdependent Objectives:** Many core objectives require both players to contribute their unique skills simultaneously or sequentially.
         * **Fail State:** If either player is caught (in 3D or 2D) or fails a critical task, the mission resets to the last checkpoint.
+        * **Assisted Hacking:** Certain levels may have parts of them that are not hackable remotely as they are intentionally not networked. One way to circumvent this is for Leo to attach a device for Vinny to hack into it, but this requires them to of course find the part and get there safely himself so that Vinny can initiate the hack.
         
 ##  **3D Hacking Benefits**
 * When Vinny has successfully hacked a specific section, he can then use that to help Leo in his environment through a variety of ways, but will have to unlock different tiers in order to have more sophisticated hacks.
@@ -152,7 +153,7 @@ dateCreated: 2025-05-10T14:33:57.494Z
 
 * Alarms and failed hacks have immediate and escalating consequences for both players:
         * **Leo’s World:** Increased guard patrols, tightened security, and potential lockdown protocols.
-        * **Vinny’s World:** Puzzles become more complex and time-sensitive, with more aggressive digital defense systems appearing.
+        * **Vinny’s World:** Puzzles become more complex and time-sensitive, with more aggressive digital defense systems appearing. Vinny can also trigger a backtracer program at virtually any time and failure to counteract it will result in an alert state for Leo.
         * **Persistent Alertness:** If Leo is detected and manages to escape, enemies in the affected area will remain on a heightened alert state for the remainder of the mission. While active pursuit may cease, their patrol patterns will be more vigilant, making subsequent stealth more challenging but still possible if no further detection occurs.
         * **Player-Induced Suspicion (Vinny's Actions):** Repeated use of certain digital distractions (e.g., flickering lights, minor alarm triggers) within a short period or a single mission will gradually raise the overall suspicion level of NPCs in Leo's environment. If this suspicion crosses a threshold, it can lead to guards actively investigating the anomaly or transitioning to a higher alert state, even without direct detection of Leo.
 
