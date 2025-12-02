@@ -2,7 +2,7 @@
 title: Gameplay
 description: 
 published: true
-date: 2025-12-01T23:44:15.141Z
+date: 2025-12-02T23:36:08.196Z
 tags: gameplay
 editor: markdown
 dateCreated: 2025-05-10T14:33:57.494Z
@@ -22,10 +22,11 @@ dateCreated: 2025-05-10T14:33:57.494Z
         * **Visibility System:** Guards’ vision cones and dynamic shadows determine detection risk.
         * **Noise Mechanics:** Actions like running or knocking over objects can alert nearby guards.
         * **Device Attachment:** Leo can attach specialized devices to physical objects (e.g., security panels, servers) in the 3D environment, creating a digital gateway for Vinny to hack. These devices are visible to enemies and must be placed carefully to avoid detection.
-        * **Information Gathering:** Leo may need to locate and identify specific **serial numbers, access codes, or physical data points** within the 3D environment for Vinny to use as input for advanced hacking operations in the Digital Realm.
+        * **Information Gathering:** Leo may need to locate and identify specific **serial numbers, access codes, or physical data points** within the 3D environment for Vinny to use as input for advanced hacking operations in the Digital Realm. Some points also aren't networked as protection against hacking, which forces Leo to plant a device on them to unlock the hacking minigame for Vinny.
         * **Guided Navigation:** Leo must follow Vinny's guidance to avoid invisible **digital barriers** (e.g., "corrupted data streams," "digital tripwires") that exist only within the 2D Digital Realm. Passing through these areas, despite no physical obstacle in the 3D world, will trigger alarms or alert digital defenses. If Vinny is wearing specific AR glasses, Leo may see a **holographic avatar of Vinny** within the 3D environment, providing visual cues for digital threats or pathways.
-        * **Stealth Gameplay:** Leo is strongly encouraged to remain in stealth, and has a move that allows him to silently knock out guards and (possibly) access to stun guns. He can then drag their bodies to a location to hide them, whether it be an unscripted section or one (like a locker) where he can hide them more effectively.
+        * **Stealth Gameplay:** Leo is strongly encouraged to remain in stealth, and has a move that allows him to silently knock out guards and (possibly) access to stun guns. He can then drag their bodies to a location to hide them, whether it be an unscripted section or one (like a locker) where he can hide them more effectively. Leo has two knockout abilities, one that does it quickly, but very loudly and can easily attract attention, and one that is slower, revolving around him putting them in a chokehold, but much quieter and won't draw attention if there are no witnesses.
         * **Combat Gameplay:** Though strongly discouraged, Leo is able to get into fights with enemies should he be found and cause an alert state. However, as he can only focus on one enemy at a time effectively (two at the most), he's encouraged to run instead as he will be easily overwhelmed and defeated. Players can block enemy strikes and throw their own in response, timing blocking with their strikes is essential to quickly end the fight, rather than just wildly flailing their arms about. A few strikes will lead to a takedown, granted that the enemy doesn't successfully block them. Players can also only block from one direction at a time, hence the possibility of being overwhelmed easily. (Reference: Dishonored and The Chronicles of Riddick: Escape from Butcher Bay)
+        
         
 
 
@@ -142,7 +143,7 @@ dateCreated: 2025-05-10T14:33:57.494Z
 * Digital defenses escalate as missions progress:
         * **Dynamic Firewalls:** Adjust puzzles based on player behavior or previous attempts.
         * **Failsafes:** Incorrect puzzle inputs activate security measures in both the 2D and 3D worlds.
-        * **Counter-Hacker Protocol:** In high-security areas or if Vinny's hacking attempts are too frequent/hasty, a specialized **counter-hacker AI** may become active. This AI can send a **backtracer** program that Vinny must quickly counteract to avoid detection or denial of access to vital systems.
+        * **Counter-Hacker Protocol:** In high-security areas or if Vinny's hacking attempts are too frequent/hasty, a specialized **counter-hacker AI** may become active. This AI can send a **backtracer** program that Vinny must quickly counteract to avoid detection or denial of access to vital systems. If the backtracer is successful, it will trigger an alert state for Leo in the 3D world.
 
 ##  **Security Bots and Environmental Hazards (Leo)**
 
