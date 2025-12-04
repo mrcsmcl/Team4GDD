@@ -2,7 +2,7 @@
 title: Gameplay
 description: 
 published: true
-date: 2025-12-02T23:36:08.196Z
+date: 2025-12-04T20:24:23.987Z
 tags: gameplay
 editor: markdown
 dateCreated: 2025-05-10T14:33:57.494Z
@@ -27,7 +27,10 @@ dateCreated: 2025-05-10T14:33:57.494Z
         * **Stealth Gameplay:** Leo is strongly encouraged to remain in stealth, and has a move that allows him to silently knock out guards and (possibly) access to stun guns. He can then drag their bodies to a location to hide them, whether it be an unscripted section or one (like a locker) where he can hide them more effectively. Leo has two knockout abilities, one that does it quickly, but very loudly and can easily attract attention, and one that is slower, revolving around him putting them in a chokehold, but much quieter and won't draw attention if there are no witnesses.
         * **Combat Gameplay:** Though strongly discouraged, Leo is able to get into fights with enemies should he be found and cause an alert state. However, as he can only focus on one enemy at a time effectively (two at the most), he's encouraged to run instead as he will be easily overwhelmed and defeated. Players can block enemy strikes and throw their own in response, timing blocking with their strikes is essential to quickly end the fight, rather than just wildly flailing their arms about. A few strikes will lead to a takedown, granted that the enemy doesn't successfully block them. Players can also only block from one direction at a time, hence the possibility of being overwhelmed easily. (Reference: Dishonored and The Chronicles of Riddick: Escape from Butcher Bay)
         
-        
+##  **Civilians**
+* In some levels located around more cityscape-like areas, there are civilians around. They typically don't react to the player's presence and don't pose any real threat, but they will still call the guards if they see the player doing something suspicious, like breaking into a restricted area.
+* They can be knocked out like the regular enemies without consequences (save for some sounding alarms if they see the player perform this), though this also has bodies that the player will have to contend with to avoid suspicion.
+* Some civilians may also be workers in a given area, so they're allowed into restricted areas, but will become suspicious if they see anybody unauthorized in there.
 
 
 ##  **Hacking and Digital Manipulation (Vinny)**
