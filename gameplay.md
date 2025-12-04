@@ -2,7 +2,7 @@
 title: Gameplay
 description: 
 published: true
-date: 2025-12-04T20:24:23.987Z
+date: 2025-12-04T20:28:28.293Z
 tags: gameplay
 editor: markdown
 dateCreated: 2025-05-10T14:33:57.494Z
@@ -19,7 +19,7 @@ dateCreated: 2025-05-10T14:33:57.494Z
 ##  **Stealth and Physical Infiltration (Leo)**
 * Leo’s mechanics emphasize stealth and physical traversal:
         * **Movement:** Crouching, sprinting, climbing, and parkour maneuvers.
-        * **Visibility System:** Guards’ vision cones and dynamic shadows determine detection risk.
+        * **Visibility System:** Guards’ vision cones and dynamic shadows determine detection risk. Most enemies will become instantly suspicious of the player, but some will only deny access to a restricted area and only become suspicious if the player breaks in.
         * **Noise Mechanics:** Actions like running or knocking over objects can alert nearby guards.
         * **Device Attachment:** Leo can attach specialized devices to physical objects (e.g., security panels, servers) in the 3D environment, creating a digital gateway for Vinny to hack. These devices are visible to enemies and must be placed carefully to avoid detection.
         * **Information Gathering:** Leo may need to locate and identify specific **serial numbers, access codes, or physical data points** within the 3D environment for Vinny to use as input for advanced hacking operations in the Digital Realm. Some points also aren't networked as protection against hacking, which forces Leo to plant a device on them to unlock the hacking minigame for Vinny.
