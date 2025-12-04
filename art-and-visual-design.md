@@ -2,7 +2,7 @@
 title: Art and Visual Design
 description: 
 published: true
-date: 2025-06-14T12:15:19.405Z
+date: 2025-12-04T20:45:12.345Z
 tags: art, visual design
 editor: markdown
 dateCreated: 2025-05-10T15:01:55.971Z
@@ -99,7 +99,23 @@ The art style for the game combines **futuristic realism** for the operative's 3
 
 ---
 
-5.  **NeoTech Headquarters (Operative’s View):**
+5. **Hard Drive Storage**
+
+	  * **Design:**
+ 				Potentially by the water, in a place like a shipping pier. Heavy security and open areas on the outside. Inside of one of these "warehouses" (which are bigger than a normal warehouse) are literal towards of Hard Drives, multiple stories tall. Catwalks and offices are on the edges of the building while the towers are often only accessible through elevators to find a specific hard drive. Offices have computers to find specific files and where they are located.
+        
+    * **Key Features**
+    		Several towers of Hard Drive Storage, literally filled with countless hard drives of classified information.
+        Sections are labeled by the beginning and ending serial number for hard drives.
+        Multiple offices for either maintenance work (which are irrelevant to the objective) or recordkeeping (which are relevant). Accessing these is essential to finding the correct hard drive.
+        Guard Towers on the outside, along with security features.
+        
+     * **Lighting**
+     Dark lighting on the outside as it's almost nighttime, often illuminated only by searchlights. Inside has more lighting, but rather harsh lighting, similar to the warehouse as it creates a harsh atmosphere. It feels like it's after hours at a regular business and the graveyard shift for the remaining guards and employees.
+
+---
+
+6.  **NeoTech Headquarters (Operative’s View):**
 
     * **Lobby:**
         * **Design:** A grand, sterile area with white marble floors, glass walls, and a holographic reception desk.
