@@ -2,7 +2,7 @@
 title: Art and Visual Design
 description: 
 published: true
-date: 2025-12-08T01:41:49.803Z
+date: 2025-12-08T01:48:53.453Z
 tags: art, visual design
 editor: markdown
 dateCreated: 2025-05-10T15:01:55.971Z
@@ -112,6 +112,10 @@ The art style for the game combines **futuristic realism** for the operative's 3
         
      * **Lighting**
      Dark lighting on the outside as it's almost nighttime, often illuminated only by searchlights. Inside has more lighting, but rather harsh lighting, similar to the warehouse as it creates a harsh atmosphere. It feels like it's after hours at a regular business and the graveyard shift for the remaining guards and employees.
+     
+     ![the-vessels-final-stop-understanding-the-port-of-discharge-in-maritime-transport-1.jpg](/the-vessels-final-stop-understanding-the-port-of-discharge-in-maritime-transport-1.jpg)
+     ![best-dock-and-shipping-equipment-in-florida.jpg](/best-dock-and-shipping-equipment-in-florida.jpg)
+     ![timelab-pro-yx20mpdyr2i-unsplash.webp](/timelab-pro-yx20mpdyr2i-unsplash.webp)
 
 ---
 
@@ -184,6 +188,11 @@ The art style for the game combines **futuristic realism** for the operative's 3
 	* Set during the day, with bright lighting to complement the bustling city street and businesses nearby.
   * Lighting is much less ominous and dark, and instead replaced with the bright lights of technology and advertisements, making it feel like the player character is on display and being watched.
   * Also provides a different kind of issue with the player, as they're now largely visible and unable to hide in darkness, both metaphorically and literally.
+  
+  ![images.jpg](/images.jpg)
+  	* **NOT THIS TALL, JUST A DECENT REFERENCE**
+  ![city-from-above_960x540_how_many_live_in_ny_1024x1024.jpg](/city-from-above_960x540_how_many_live_in_ny_1024x1024.jpg)
+  ![images_(1).jpg](/images_(1).jpg)
   
 ---
     
