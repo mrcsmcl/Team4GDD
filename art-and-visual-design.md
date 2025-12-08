@@ -2,7 +2,7 @@
 title: Art and Visual Design
 description: 
 published: true
-date: 2025-12-04T20:45:12.345Z
+date: 2025-12-08T01:41:49.803Z
 tags: art, visual design
 editor: markdown
 dateCreated: 2025-05-10T15:01:55.971Z
@@ -156,6 +156,37 @@ The art style for the game combines **futuristic realism** for the operative's 3
 
 ---
 
+7.  **City Block**
+
+* **Design:**
+  	- The level takes place in a "mega block", which largely consists of one singular building with multiple functions. On the base level is something like small businesses and coffee shops and cafes (cafe design could be used here to expand the level), where there are more people going around, but the very next floor and above contain multiple different units, such as apartment housing, office space (much of which is for NeoTech), and the top floor is dedicated solely to a penthouse for the main target, his ego begin clearly reflected in the massive and intricate personal living quarters.
+* **Security:**
+		- While security starts off rather lax at the lower floors, with only the basics to keep businesses' assets secure, it gets more and more prominent and secure. Obviously, housing is somewhat restrictive (but only really if you break into someone's apartment directly or other restricted areas), but further up is often only accessible to specific personnel, forcing Leo and Vinny to either forge a pass for Leo to access it, use a disguise, or even use the duct system to go further forward. Even individual air ducts and such could have security systems against this specific contingency. The penthouse is easily the hardest to access as it's only reserved for the target and his personal security. The penthouse is also quite literally filled with security measures, some of which cannot be hacked remotely, which forces Leo to assist Vinny in doing so by finding the key locations.
+ * **Key Features:**
+    	* **Bottom Level**
+      	* Several businesses both service based, like restaurants and cafes, and specialized like Credit Unions and so forth.
+        - Also has some staircases for access to upper levels.
+    	* **Housing Level**
+      	* Contains multiple apartments of varying sizes, but usually quite open and even luxurious.
+        * Some apartments house NeoTech employees of the offices above and have higher security, but also ways to steal and doctor IDs for access and information on how to hack security systems.
+        * Upper floors, containing the offices, require security clearance to use the elevator (the most direct route).
+     	* **Office Levels**
+      	* At least two of the levels are used solely for office space, multiple cubicles and some larger offices for executives and meeting rooms for obvious reasons.
+        * Presence of security personnel working directly for NeoTech, so players can't just walk in there, or will at least need a disguise to freely move about, but avoid approaching the guards directly lest they get detected.
+        * The Penthouse, the final floor, is accessible by elevator only to designated security or invited personnel to the floor, which will require Vinny to commence a specific hack. Otherwise, it's accesible either from the outside, i.e. window cleaners, or the inside, i.e. ducts and maintenance which could be monitored with isolated security systems.
+       * **Penthouse Level**
+      	 * The Penthouse takes up nearly the entire length and width of the block, just not the height, a testament to the occupant's ego.
+         * There are only a couple areas with computers whatsoever to access the information needed, but both are spread out, one being the personal home office and the other being a dedicated security room.
+         * Multiple security systems all over the inside of the penthouse, including heat sensors that will set off an alarm if Leo goes in without Vinny being able to hack into it and conceal his presence.
+         * Most security systems are directly wired into the dedicated security room, which itself is hard to access without detection.
+         * Virtually nowhere to hide from plain sight, either, as the areas are very open and there's a nearly unbroken line of sight any which way.
+* **Lighting:**
+	* Set during the day, with bright lighting to complement the bustling city street and businesses nearby.
+  * Lighting is much less ominous and dark, and instead replaced with the bright lights of technology and advertisements, making it feel like the player character is on display and being watched.
+  * Also provides a different kind of issue with the player, as they're now largely visible and unable to hide in darkness, both metaphorically and literally.
+  
+---
+    
    - **Security Rooms:**  
      - **Design:** Dark and cramped, with wall-mounted monitors displaying live security feeds.  
      - **Key Features:**  
