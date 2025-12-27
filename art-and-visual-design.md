@@ -2,7 +2,7 @@
 title: Art and Visual Design
 description: 
 published: true
-date: 2025-12-08T01:48:53.453Z
+date: 2025-12-27T21:23:01.412Z
 tags: art, visual design
 editor: markdown
 dateCreated: 2025-05-10T15:01:55.971Z
@@ -116,6 +116,7 @@ The art style for the game combines **futuristic realism** for the operative's 3
      ![the-vessels-final-stop-understanding-the-port-of-discharge-in-maritime-transport-1.jpg](/the-vessels-final-stop-understanding-the-port-of-discharge-in-maritime-transport-1.jpg)
      ![best-dock-and-shipping-equipment-in-florida.jpg](/best-dock-and-shipping-equipment-in-florida.jpg)
      ![timelab-pro-yx20mpdyr2i-unsplash.webp](/timelab-pro-yx20mpdyr2i-unsplash.webp)
+     ![screenshot_2025-12-19_185020.png](/screenshot_2025-12-19_185020.png)
 
 ---
 
