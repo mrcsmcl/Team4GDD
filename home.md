@@ -2,7 +2,7 @@
 title: Project Overview
 description: 
 published: true
-date: 2026-01-07T03:43:13.434Z
+date: 2026-01-07T03:46:16.711Z
 tags: overview
 editor: markdown
 dateCreated: 2025-05-10T13:03:51.326Z
@@ -52,6 +52,7 @@ Digital Realm (Oracle’s View):
 - A functional color palette of greens, blues, blacks, and grays, with vibrant highlights (amber, red) for alerts or interactive elements.
 - Visual cues for network maps, door controls, and real-time video streams are integrated directly into the 2D environment, perhaps as pop-up screens or overlaid UI elements within the 2D world itself.
 - Possible Low-Res/low-effort style graphics, almost as if Vinny has designed it himself, but did so for function over form.
+- Fun or rather quirky sound effects for interactions, different between success and failure, interaction with different objects, and so on.
 
 # Inspirations
 
